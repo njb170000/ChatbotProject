@@ -1,0 +1,135 @@
+﻿No computer id before user load?
+   in topic_noah_anonymous.txt at 0: ^anonymous
+    No computer id before user load?
+   in topic_noah_anonymous.txt at 1: ^anonymous
+    No computer id before user load?
+   in topic_noah_anonymous.txt at 0: ^anonymous
+    No computer id before user load?
+   in topic_noah_anonymous.txt at 0: ^anonymous
+    No computer id before user load?
+   in topic_noah_anonymous.txt at 0: ^anonymous
+    User data file CONTEXT inconsistent
+
+No computer id before user load?
+   in topic_noah_smart.txt at 0: ^smart
+    No computer id before user load?
+   in topic_noah_smart.txt at 1: ^smart
+    No computer id before user load?
+   in topic_noah_smart.txt at 0: ^smart
+    No computer id before user load?
+   in topic_noah_smart.txt at 1: ^smart
+    No computer id before user load?
+   in topic_noah_smart.txt at 0: ^smart
+    No computer id before user load?
+   in topic_noah_smart.txt at 0: ^smart
+    No such directory RAWDATA/SM/*
+
+0 Sat Nov 13 13:52:20 2021 in sentence:    :build SMART
+No computer id before user load?
+   in topic_noah_anonymous.txt at 0: ^anonymous
+    User data file CONTEXT inconsistent
+
+Not expecting PRE to generate a response
+   in topic_bob_smart.txt at 1: 
+    topic system failed to clear out topic stack
+
+   in topic_bob_smart.txt at 0: 
+    Not expecting PRE to generate a response
+0 Sat Nov 13 14:31:39 2021 in sentence:    odd
+topic system failed to clear out topic stack
+
+   in topic_bob_smart.txt at 0: #context 
+    Not expecting PRE to generate a response
+1 Sat Nov 13 14:31:43 2021 in sentence:    hm
+topic system failed to clear out topic stack
+
+   in topic_bob_smart.txt at 0: #context 
+    Not expecting PRE to generate a response
+   in topic_tom_smart.txt at 1: 
+    topic system failed to clear out topic stack
+
+   in topic_tom_smart.txt at 0: 
+    Not expecting PRE to generate a response
+   in topic_noah_smart.txt at 1: 
+    topic system failed to clear out topic stack
+
+   in topic_noah_smart.txt at 0: 
+    Not expecting PRE to generate a response
+topic system failed to clear out topic stack
+
+   in topic_noah_smart.txt at 0: 
+    Not expecting PRE to generate a response
+0 Sat Nov 13 14:35:44 2021 in sentence:    what is your name?
+topic system failed to clear out topic stack
+
+   in topic_noah_smart.txt at 0: #context 
+    Not expecting PRE to generate a response
+topic system failed to clear out topic stack
+
+   in topic_noah_smart.txt at 0: 
+    Not expecting PRE to generate a response
+1 Sat Nov 13 14:39:07 2021 in sentence:    hello
+topic system failed to clear out topic stack
+
+   in topic_noah_smart.txt at 0: #context 
+    Not expecting PRE to generate a response
+topic system failed to clear out topic stack
+
+   in topic_noah_smart.txt at 0: 
+    Not expecting PRE to generate a response
+   in topic_polo_smart.txt at 1: 
+    topic system failed to clear out topic stack
+
+   in topic_polo_smart.txt at 0: 
+    Not expecting PRE to generate a response
+   in topic_qtdfvg_smart.txt at 1: 
+    topic system failed to clear out topic stack
+
+   in topic_qtdfvg_smart.txt at 0: 
+    No computer id before user load?
+   in topic_john_harry.txt at 1: ^harry
+    Not expecting PRE to generate a response
+   in topic_john_smart.txt at 0: ^smart
+    topic system failed to clear out topic stack
+
+   in topic_john_smart.txt at 0: ^smart
+    No computer id before user load?
+   in topic_yonathan_anonymous.txt at 0: ^anonymous
+    No computer id before user load?
+   in topic_yonathan_anonymous.txt at 0: ^anonymous
+    INFO: Illegal query name: Ningning
+5 Sat Nov 13 15:05:42 2021 in sentence:    yes please
+INFO: Illegal query name: Karina
+6 Sat Nov 13 15:10:07 2021 in sentence:    yes please
+INFO: Illegal query name: Winter
+16 Sat Nov 13 15:23:19 2021 in sentence:    yes
+INFO: Illegal query name: Karina
+4 Sat Nov 13 15:33:22 2021 in sentence:    yes
+INFO: Illegal query name: Giselle
+3 Sat Nov 13 15:36:23 2021 in sentence:    yes
+Error opening utf8writeappend file TOPIC/BUILD1/script1.txt: Permission denied
+
+   in quibble.top at 36: u: () ^respond(~HONEST_RESPONSE ) 
+    No computer id before user load?
+   in topic_karina_anonymous.txt at 0: ^anonymous
+    No computer id before user load?
+   in topic_me_smart.txt at 1: ^smart
+    No computer id before user load?
+   in topic_vybu_anonymous.txt at 0: ^anonymous
+    No computer id before user load?
+   in topic_noah_anonymous.txt at 0: ^anonymous
+    No computer id before user load?
+   in topic_new_anonymous.txt at 0: ^anonymous
+    No computer id before user load?
+   in topic_newguy_anonymous.txt at 0: ^anonymous
+    No computer id before user load?
+   in topic_noah_anonymous.txt at 0: ^anonymous
+    No computer id before user load?
+   in topic_noah_anonymous.txt at 0: ^anonymous
+    No computer id before user load?
+   in topic_noah_anonymous.txt at 0: ^anonymous
+    No computer id before user load?
+   in topic_brandnewguy_anonymous.txt at 0: ^anonymous
+    No computer id before user load?
+   in topic_ubew3_anonymous.txt at 0: ^anonymous
+    

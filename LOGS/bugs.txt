@@ -1,0 +1,165 @@
+﻿
+BUG: Sat Nov 13 13:31:59 2021:  in topic_noah_anonymous.txt at 0: ^anonymous  volley:0 No computer id before user load?caller:noah callee:noah at  in sentence: 
+
+BUG: Sat Nov 13 13:32:09 2021:  in topic_noah_anonymous.txt at 1: ^anonymous  volley:0 No computer id before user load?caller:noah callee:noah at  in sentence: what is your name?
+
+BUG: Sat Nov 13 13:36:32 2021:  in topic_noah_anonymous.txt at 0: ^anonymous  volley:0 No computer id before user load?caller:noah callee:noah at  in sentence: 
+
+BUG: Sat Nov 13 13:38:22 2021:  in topic_noah_anonymous.txt at 0: ^anonymous  volley:0 No computer id before user load?caller:noah callee:noah at  in sentence: 
+
+BUG: Sat Nov 13 13:39:03 2021:  in topic_noah_anonymous.txt at 0: ^anonymous  volley:0 No computer id before user load?caller:noah callee:noah at  in sentence: 
+
+BUG: Sat Nov 13 13:40:08 2021:  volley:44 User data file CONTEXT inconsistent
+caller:noah callee:noah at  in sentence: 
+
+BUG: Sat Nov 13 13:46:51 2021:  in topic_noah_smart.txt at 0: ^smart  volley:0 No computer id before user load?caller:noah callee:noah at  in sentence: 
+
+BUG: Sat Nov 13 13:46:55 2021:  in topic_noah_smart.txt at 1: ^smart  volley:0 No computer id before user load?caller:noah callee:noah at  in sentence: wa
+
+BUG: Sat Nov 13 13:47:09 2021:  in topic_noah_smart.txt at 0: ^smart  volley:0 No computer id before user load?caller:noah callee:noah at  in sentence: 
+
+BUG: Sat Nov 13 13:51:34 2021:  in topic_noah_smart.txt at 1: ^smart  volley:0 No computer id before user load?caller:noah callee:noah at  in sentence: 
+
+BUG: Sat Nov 13 13:51:43 2021:  in topic_noah_smart.txt at 0: ^smart  volley:0 No computer id before user load?caller:noah callee:noah at  in sentence: 
+
+BUG: Sat Nov 13 13:51:52 2021:  in topic_noah_smart.txt at 0: ^smart  volley:0 No computer id before user load?caller:noah callee:noah at  in sentence: 
+
+BUG: Sat Nov 13 13:52:39 2021:  in topic_noah_anonymous.txt at 0: ^anonymous  volley:0 No computer id before user load?caller:noah callee:noah at  in sentence: 
+
+BUG: Sat Nov 13 14:26:24 2021:  volley:10 User data file CONTEXT inconsistent
+caller:noah callee:noah at  in sentence: 
+
+BUG: Sat Nov 13 14:30:55 2021:  in topic_bob_smart.txt at 1:   volley:0 Not expecting PRE to generate a responsecaller:bob callee:bob at  in sentence: 
+
+BUG: Sat Nov 13 14:30:55 2021:  in topic_bob_smart.txt at 0:   volley:0 topic system failed to clear out topic stack
+caller:bob callee:bob at  in sentence: 
+
+BUG: Sat Nov 13 14:31:39 2021:  volley:0 Not expecting PRE to generate a responsecaller:bob callee:bob at  in sentence: odd
+
+BUG: Sat Nov 13 14:31:39 2021:  in topic_bob_smart.txt at 0: #context   volley:1 topic system failed to clear out topic stack
+caller:bob callee:bob at  in sentence: odd
+
+BUG: Sat Nov 13 14:31:43 2021:  volley:1 Not expecting PRE to generate a responsecaller:bob callee:bob at  in sentence: hm
+
+BUG: Sat Nov 13 14:31:43 2021:  in topic_bob_smart.txt at 0: #context   volley:2 topic system failed to clear out topic stack
+caller:bob callee:bob at  in sentence: hm
+
+BUG: Sat Nov 13 14:32:10 2021:  in topic_tom_smart.txt at 1:   volley:0 Not expecting PRE to generate a responsecaller:tom callee:tom at  in sentence: 
+
+BUG: Sat Nov 13 14:32:10 2021:  in topic_tom_smart.txt at 0:   volley:0 topic system failed to clear out topic stack
+caller:tom callee:tom at  in sentence: 
+
+BUG: Sat Nov 13 14:34:15 2021:  in topic_noah_smart.txt at 1:   volley:0 Not expecting PRE to generate a responsecaller:noah callee:noah at  in sentence: 
+
+BUG: Sat Nov 13 14:34:15 2021:  in topic_noah_smart.txt at 0:   volley:0 topic system failed to clear out topic stack
+caller:noah callee:noah at  in sentence: 
+
+BUG: Sat Nov 13 14:35:39 2021:  volley:0 Not expecting PRE to generate a responsecaller:noah callee:noah at  in sentence: 
+
+BUG: Sat Nov 13 14:35:39 2021:  in topic_noah_smart.txt at 0:   volley:0 topic system failed to clear out topic stack
+caller:noah callee:noah at  in sentence: 
+
+BUG: Sat Nov 13 14:35:44 2021:  volley:0 Not expecting PRE to generate a responsecaller:noah callee:noah at  in sentence: what is your name?
+
+BUG: Sat Nov 13 14:35:44 2021:  in topic_noah_smart.txt at 0: #context   volley:1 topic system failed to clear out topic stack
+caller:noah callee:noah at  in sentence: what is your name?
+
+BUG: Sat Nov 13 14:36:51 2021:  volley:1 Not expecting PRE to generate a responsecaller:noah callee:noah at  in sentence: 
+
+BUG: Sat Nov 13 14:36:51 2021:  in topic_noah_smart.txt at 0:   volley:1 topic system failed to clear out topic stack
+caller:noah callee:noah at  in sentence: 
+
+BUG: Sat Nov 13 14:39:07 2021:  volley:1 Not expecting PRE to generate a responsecaller:noah callee:noah at  in sentence: hello
+
+BUG: Sat Nov 13 14:39:07 2021:  in topic_noah_smart.txt at 0: #context   volley:2 topic system failed to clear out topic stack
+caller:noah callee:noah at  in sentence: hello
+
+BUG: Sat Nov 13 14:39:20 2021:  volley:2 Not expecting PRE to generate a responsecaller:noah callee:noah at  in sentence: 
+
+BUG: Sat Nov 13 14:39:20 2021:  in topic_noah_smart.txt at 0:   volley:2 topic system failed to clear out topic stack
+caller:noah callee:noah at  in sentence: There are no gambits in topic ~control for $cs_control_pre or topic is blocked for this bot.
+
+BUG: Sat Nov 13 14:39:31 2021:  in topic_polo_smart.txt at 1:   volley:0 Not expecting PRE to generate a responsecaller:polo callee:polo at  in sentence: 
+
+BUG: Sat Nov 13 14:39:31 2021:  in topic_polo_smart.txt at 0:   volley:0 topic system failed to clear out topic stack
+caller:polo callee:polo at  in sentence: 
+
+BUG: Sat Nov 13 14:39:40 2021:  in topic_qtdfvg_smart.txt at 1:   volley:0 Not expecting PRE to generate a responsecaller:qtdfvg callee:qtdfvg at  in sentence: 
+
+BUG: Sat Nov 13 14:39:40 2021:  in topic_qtdfvg_smart.txt at 0:   volley:0 topic system failed to clear out topic stack
+caller:qtdfvg callee:qtdfvg at  in sentence: 
+
+BUG: Sat Nov 13 14:39:52 2021:  in topic_john_harry.txt at 1: ^harry  volley:0 No computer id before user load?caller:john callee:john at  in sentence: 
+
+BUG: Sat Nov 13 14:41:24 2021:  in topic_john_smart.txt at 0: ^smart  volley:0 Not expecting PRE to generate a responsecaller:john callee:john at  in sentence: $shutup
+
+BUG: Sat Nov 13 14:41:24 2021:  in topic_john_smart.txt at 0: ^smart  volley:1 topic system failed to clear out topic stack
+caller:john callee:john at  in sentence: There are no gambits in topic ~control for $cs_control_pre or topic is blocked for this bot.
+
+BUG: Sat Nov 13 15:04:43 2021:  in topic_yonathan_anonymous.txt at 0: ^anonymous  volley:0 No computer id before user load?caller:yonathan callee:yonathan at  in sentence: 
+
+BUG: Sat Nov 13 15:05:21 2021:  in topic_yonathan_anonymous.txt at 0: ^anonymous  volley:0 No computer id before user load?caller:yonathan callee:yonathan at  in sentence: 
+
+BUG: Sat Nov 13 15:05:42 2021:  volley:5 INFO: Illegal query name: Ningningcaller:yonathan callee:yonathan at  script: ~aespa.0.6 in sentence: yes please
+CurrentDepth 7: heapusedOnEntry: 11540472 heapUsedNow: 11540472 buffers:6 stackused: 88377856 stackusedNow:81847   ^query()  - b:!( ~yes ) Awesome! Here's one cool thing I know 
+Depth 6: heapusedOnEntry: 11540472 buffers:3 stackused: 88377936   ~aespa.0.6()  - u:%( ) $_responsecount = %response ^if 00n( $singl
+Depth 5: heapusedOnEntry: 11540472 buffers:3 stackused: 88378016   ^rejoinder()  - u:%( ) $_responsecount = %response ^if 00n( $singl
+Depth 4: heapusedOnEntry: 11540472 buffers:2 stackused: 88378120   ^nofail()  - u:%( ) $_responsecount = %response ^if 00n( $singl
+Depth 3: heapusedOnEntry: 11540472 buffers:1 stackused: 88378200   If()  - u:%( ) $_responsecount = %response ^if 00n( $singl
+Depth 2: heapusedOnEntry: 11540408 buffers:0 stackused: 88378376   ~control.9.0()  - 
+
+BUG: Sat Nov 13 15:10:07 2021:  volley:6 INFO: Illegal query name: Karinacaller:y2ieux callee:y2ieux at  script: ~aespa.0.6 in sentence: yes please
+CurrentDepth 7: heapusedOnEntry: 11540536 heapUsedNow: 11540536 buffers:5 stackused: 88377752 stackusedNow:81885   ^query()  - b:!( ~yes ) @0 = ^query ( $v1 fact ? ) $myfact = ^
+Depth 6: heapusedOnEntry: 11540536 buffers:3 stackused: 88377832   ~aespa.0.6()  - u:&( ) $_responsecount = %response ^if 00n( $singl
+Depth 5: heapusedOnEntry: 11540536 buffers:3 stackused: 88377912   ^rejoinder()  - u:&( ) $_responsecount = %response ^if 00n( $singl
+Depth 4: heapusedOnEntry: 11540536 buffers:2 stackused: 88378016   ^nofail()  - u:&( ) $_responsecount = %response ^if 00n( $singl
+Depth 3: heapusedOnEntry: 11540536 buffers:1 stackused: 88378096   If()  - u:&( ) $_responsecount = %response ^if 00n( $singl
+Depth 2: heapusedOnEntry: 11540472 buffers:0 stackused: 88378272   ~control.9.0()  - 
+
+BUG: Sat Nov 13 15:23:19 2021:  volley:16 INFO: Illegal query name: Wintercaller:noah callee:noah at  script: ~aespa.0.6 in sentence: yes
+CurrentDepth 7: heapusedOnEntry: 11527000 heapUsedNow: 11527000 buffers:5 stackused: 88391040 stackusedNow:82133   ^query()  - b:!( ~yes ) @0 = ^query ( $v1 fact ? ) $myfact = ^
+Depth 6: heapusedOnEntry: 11527000 buffers:3 stackused: 88391120   ~aespa.0.6()  - u:1( ) $_responsecount = %response ^if 00n( $singl
+Depth 5: heapusedOnEntry: 11527000 buffers:3 stackused: 88391200   ^rejoinder()  - u:1( ) $_responsecount = %response ^if 00n( $singl
+Depth 4: heapusedOnEntry: 11527000 buffers:2 stackused: 88391304   ^nofail()  - u:1( ) $_responsecount = %response ^if 00n( $singl
+Depth 3: heapusedOnEntry: 11527000 buffers:1 stackused: 88391384   If()  - u:1( ) $_responsecount = %response ^if 00n( $singl
+Depth 2: heapusedOnEntry: 11526936 buffers:0 stackused: 88391560   ~control.9.0()  - 
+
+BUG: Sat Nov 13 15:33:22 2021:  volley:4 INFO: Illegal query name: Karinacaller:qw callee:qw at  script: ~aespa.0.6 in sentence: yes
+CurrentDepth 7: heapusedOnEntry: 11526640 heapUsedNow: 11526640 buffers:5 stackused: 88391752 stackusedNow:81781   ^query()  - b:!( ~yes ) @0 = ^query ( $v1 fact ? ) $myfact = ^
+Depth 6: heapusedOnEntry: 11526640 buffers:3 stackused: 88391832   ~aespa.0.6()  - u:$( ) $_responsecount = %response ^if 00n( $singl
+Depth 5: heapusedOnEntry: 11526640 buffers:3 stackused: 88391912   ^rejoinder()  - u:$( ) $_responsecount = %response ^if 00n( $singl
+Depth 4: heapusedOnEntry: 11526640 buffers:2 stackused: 88392016   ^nofail()  - u:$( ) $_responsecount = %response ^if 00n( $singl
+Depth 3: heapusedOnEntry: 11526640 buffers:1 stackused: 88392096   If()  - u:$( ) $_responsecount = %response ^if 00n( $singl
+Depth 2: heapusedOnEntry: 11526576 buffers:0 stackused: 88392272   ~control.9.0()  - 
+
+BUG: Sat Nov 13 15:36:23 2021:  volley:3 INFO: Illegal query name: Gisellecaller:iounc callee:iounc at  script: ~aespa.0.6 in sentence: yes
+CurrentDepth 7: heapusedOnEntry: 11526648 heapUsedNow: 11526648 buffers:5 stackused: 88391744 stackusedNow:81782   ^query()  - b:!( ~yes ) @0 = ^query ( $v1 fact ? ) $myfact = ^
+Depth 6: heapusedOnEntry: 11526648 buffers:3 stackused: 88391824   ~aespa.0.6()  - u:#( ) $_responsecount = %response ^if 00n( $singl
+Depth 5: heapusedOnEntry: 11526648 buffers:3 stackused: 88391904   ^rejoinder()  - u:#( ) $_responsecount = %response ^if 00n( $singl
+Depth 4: heapusedOnEntry: 11526648 buffers:2 stackused: 88392008   ^nofail()  - u:#( ) $_responsecount = %response ^if 00n( $singl
+Depth 3: heapusedOnEntry: 11526648 buffers:1 stackused: 88392088   If()  - u:#( ) $_responsecount = %response ^if 00n( $singl
+Depth 2: heapusedOnEntry: 11526584 buffers:0 stackused: 88392264   ~control.9.0()  - 
+BUG in quibble.top at 36: u: () ^respond(~HONEST_RESPONSE )  | Error opening utf8writeappend file TOPIC/BUILD1/script1.txt: Permission denied
+
+
+BUG: Sat Nov 13 15:43:02 2021:  in topic_karina_anonymous.txt at 0: ^anonymous  volley:0 No computer id before user load?caller:karina callee:karina at  in sentence: 
+
+BUG: Sat Nov 13 15:43:21 2021:  in topic_me_smart.txt at 1: ^smart  volley:0 No computer id before user load?caller:me callee:me at  in sentence: 
+
+BUG: Sat Nov 13 16:02:33 2021:  in topic_vybu_anonymous.txt at 0: ^anonymous  volley:0 No computer id before user load?caller:vybu callee:vybu at  in sentence: 
+
+BUG: Sat Nov 13 17:07:13 2021:  in topic_noah_anonymous.txt at 0: ^anonymous  volley:0 No computer id before user load?caller:noah callee:noah at  in sentence: 
+
+BUG: Sat Nov 13 17:48:55 2021:  in topic_new_anonymous.txt at 0: ^anonymous  volley:0 No computer id before user load?caller:new callee:new at  in sentence: 
+
+BUG: Sat Nov 13 22:17:47 2021:  in topic_newguy_anonymous.txt at 0: ^anonymous  volley:0 No computer id before user load?caller:newguy callee:newguy at  in sentence: 
+
+BUG: Sun Nov 14 21:25:13 2021:  in topic_noah_anonymous.txt at 0: ^anonymous  volley:0 No computer id before user load?caller:noah callee:noah at  in sentence: 
+
+BUG: Sun Nov 14 21:29:33 2021:  in topic_noah_anonymous.txt at 0: ^anonymous  volley:0 No computer id before user load?caller:noah callee:noah at  in sentence: 
+
+BUG: Sun Nov 14 21:30:04 2021:  in topic_noah_anonymous.txt at 0: ^anonymous  volley:0 No computer id before user load?caller:noah callee:noah at  in sentence: 
+
+BUG: Sun Nov 14 21:54:09 2021:  in topic_brandnewguy_anonymous.txt at 0: ^anonymous  volley:0 No computer id before user load?caller:brandnewguy callee:brandnewguy at  in sentence: 
+
+BUG: Sun Nov 14 22:03:58 2021:  in topic_ubew3_anonymous.txt at 0: ^anonymous  volley:0 No computer id before user load?caller:ubew3 callee:ubew3 at  in sentence: 

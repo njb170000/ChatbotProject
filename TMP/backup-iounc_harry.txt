@@ -1,0 +1,37 @@
+﻿USERS/topic_iounc_harry.txt
+jul2116 Nov13'21-15:36:14 Nov13'21-15:36:20 0 |
+1 2 ~aespa $%& jyC*  DY 0 22 22 0 # start, input#, rejoindertopic,rejoinderid (b:  ( ~yes ) @0 = ^query ( $v1 fact ? ) $myfact = ^pick ( @0object ) Awesome! Here's one cool ...   ),checksum
+~introductions ~aespa #pending
+~aespa + 1 jyC* ia 2 0 0 
+#`end topics
+$v1=Giselle
+$shutup=1
+$singleresponse=1
+$botprompt=SMART: 
+$userprompt=iounc: >
+$cs_control_main=~control
+$cs_token=75726583
+$cs_login=iounc
+$cs_bot=Harry
+$cs_randindex=2915
+$cs_trace=0
+$cs_time=0
+$fact=61439
+#`end variables
+0 #set flags
+#`end fact sets
+( On stage, she )
+( karina fact ( On stage, she ) x00000020 )
+( She was born )
+( karina fact ( She was born ) x00000020 )
+( She's officially `5'6"` )
+( karina fact ( She's officially `5'6"` ) x00000020 )
+#`end user facts 6
+#context 
+ aespa
+ no
+#`end user
+ Welcome to ChatScript. anyeong
+ Have you heard of SM's latest girl group, Aespa?
+ You should definitely check them out if you like music that is a bit experimental. I'm a big fan of Giselle, their main rapper. Want to hear more about her?
+#`end chatbot

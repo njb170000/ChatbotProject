@@ -1,0 +1,45 @@
+
+
+TOPIC: ~songrec  keep repeat (song recommend recommendation suggest suggestion like "might like" music favorite)
+
+#! Can you recommend any good boy group songs?
+u: (<<[~bgroup] ~recommend song>>) [If you're looking for a boy group to listen to, Exo recently came back with "Don't Fight the Feeling."]
+	[There's some classic Exo songs everyone should listen to at least once, like Growl, Love Shot, or Monster.]
+	[If you want to go way back, try H.O.T's song "Age of Violence" or maybe "Candy".]
+	[Super Junior is great if you want to have some fun, try out Sorry, Sorry or Mr. Simple!]
+	[Super Junior's House Party is an interesting song that has topical lyrics, if you like that sort of thing.]
+	[Shinee has so many classics. View or Replay are great songs to relax to.]
+	[If you want something a bit crazy, try Ring Ding Dong or Sherlock by Shinee.]
+	[NCT doesn't make bad songs, seeing as they are an SM group, but I'd recommend Kick It specifically.]
+	[If you wanna see what a chinese song sounds like, WayV's Love Talk is great. It even has an english version if you prefer that.]
+
+
+
+#! Are there any groups you could suggest to me? 
+#! recommend a group for me.
+u: keep (<<~group ~recommend>>) [Exo is the epitome of early-mid 2010's kpop, so you have to give them a listen.]
+		[NCT is set to be the next big thing, so maybe they'd be worth checking out.]
+		[Shinee were huge in their day, and people still adore their songs, so maybe you will, too.]
+		[H.O.T. and S.E.S are both solid choices if you want to know what people were listening to in the early 2000's.]
+		[Super Junior has such a variety with all their units that you can probably find something from them to enjoy.]
+		[Girls' Generation stole the hearts of every guy in Korea for years, so they're a safe bet if you're looking for a girl group.]
+		[f(x) is known for an experimental electronic sound. If that interests you, then definitely check them out!]
+		[Red Velvet have been universally respected since their debut due to their impressive vocals and variety of styles. If one of their songs
+		isn't your favorite, another one just might be.]
+		[Aespa are already making waves and breaking records, and they've only been around for a year. They are certainly unique, but that's why everyone loves them!]
+		[SuperM combines some of what we love from Exo, NCT, and Shinee, so its hard not to like their music.]
+
+
+#! Can you recommend any good girl group songs?
+u: (<<[~ggroup] ~recommend song>>) [If you're looking for a girl group to listen to, Aespa's latest song Savage is a good one.]
+			[Red Velvet has so many to choose from! Bad Boy or Psycho if you want something cool.]
+			[Red Velvet are known as the Summer Queens, so maybe something like Red Flavor or Power Up?]
+			[Girls' Generation made their presence known with Gee, and its one that any self-respecting kpop fan knows well.]
+			[Girls' Generation has a number to choose from, but one of their latest was Lion Heart, which had a fun retro theme!]
+			[S.E.S. may be a bit old, but they have some timeless songs, too. Be Natural is a great example.]
+			[They say Next Level by Aespa was banned at schools for being too catchy!]
+			[If you want to know what f(x) is all about, check out Four Walls or Electric Shock.]
+
+s: (!~negative _* [is are be] * favorite) You think _0 is your favorite group in SM?
+	a: (~yes) Cool! I'm a big fan, too. $favorite_group = _0
+	a: (~no) Oh, maybe I didn't understand you, then.

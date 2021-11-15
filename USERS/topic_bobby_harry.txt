@@ -1,0 +1,25 @@
+USERS/topic_bobby_harry.txt
+jul2116 Nov14'21-22:40:21 0 0 |
+1 0 0 DY 0 35 35 0 # start, input#, no rejoinder, #0topics, #1topics, layer2
+~introductions #pending
+#`end topics
+$cs_time=0
+$cs_trace=0
+$cs_randindex=3475
+$cs_bot=Harry
+$cs_login=bobby
+$cs_token=75726583
+$cs_control_main=~control
+$userprompt=bobby: >
+$botprompt=SMART: 
+$singleresponse=1
+$shutup=1
+#`end variables
+0 #set flags
+#`end fact sets
+#`end user facts 0
+#context 
+#`end user
+ Hello! I am SMART, a chatbot designed to provide you with all the most useless information regarding SM Entertainment and its many kpop groups that you could ever ask for. Go ahead and ask me whateve
+ Hello! I am SMART, a chatbot designed to provide you with all the most useless information regarding SM Entertainment and its many kpop groups that you could ever ask for. Go ahead and ask me whateve
+#`end chatbot

@@ -1,0 +1,7 @@
+﻿ ~introductions.0.0 #!x if they have selected a favorite group before.
+ ~introductions.1.0 #!x will match on every return start of a conversation 
+ ~introductions.2.0 #!x matches every time on startup of a new conversation
+ ~introductions.3.0 #!x issued only once, then erased
+     ~introductions.3.1 #! yes
+     ~introductions.3.2 #! no
+ ~introductions.4.0 #! what is your name 

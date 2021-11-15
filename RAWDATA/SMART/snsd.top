@@ -1,0 +1,85 @@
+concept: ~hyo [hyo hyoyeon "dj hyo" "dj hyoyeon"]
+
+TOPIC: ~snsd keep repeat (snsd "girls' generation" "girls generation" "girls gen" "oh gg" tts sonyaside)
+#!x This topic is for anything related to the group shinee.
+
+u: ([tell discuss learn] * ~snsd) Oh, I could definitely talk about Girls' Generation. Is that what you want?
+	
+	a: (!~negative [~yes "of course"]) Girls' Generation, or SNSD, was a 9 member girl group (It'd be weird if they were dudes) that debued in 2007.
+			They have had massive success since their debut, even earning the nickname "the nation's girl group" due to their overwhelming popularity.
+			They are now just 8 members, but they largely focus on individual activities now, anyway, and a future group release seems unlikely at this point.
+	a: (~no) Then why did you bring them up?
+
+?: (who * member) Girls' Generation has 8 members: Taeyeon, Sunny, Tiffany, Hyoyeon, Yuri, Sooyoung, Yoona, and Seohyun. Jessica used to be a member, but has since left SM.
+
+#! what group was "member" a part of, again?
+u: (<<[what where] [taeyeon sunny tiffany ~hyo yuri sooyoung yoona seohyun jessica]>>) Gee, let me think... Girls' Generation!
+
+u: (!~negative <<taeyeon ~fact>>) [Taeyeon was born March 9, 1989.]
+			[Her hobbies include watching movies and listening to music.]
+			[Taeyeon is the leader of SNSD, and also was part of both of the group's subunits.]
+			[Taeyeon is also a successful soloist, in addition to her role in SNSD.]
+			[At first, she was hesitant to be the leader, as she felt they didn't really need one.]
+			[She dated Exo's Baekhyun for a while, but the relatioship did not last.]
+u: (!~negative <<sunny ~fact>>) [Sunny was born May 15, 1989.]
+			[Sunny is just a stage name. Her real name is Lee Soonkyu.]
+			[Sunny was born in Los Angeles, but moved a lot as a child, eventually ending up in Korea.]
+			[Her uncle is Lee Soo Man, the man behind SM Entertainment! But she is more than qualified to be a singer, don't worry.]
+			[She likes to annoy the other members by acting overly cute.]
+			[Sunny is easily scared by fireworks and other explosions.]
+u: (!~negative <<tiffany ~fact>>) [Tiffany is from San Francisco, and was born in the same hospital as Jessica!]
+			[Tiffany moved to South Korea after passing an audition to join SM as a trainee.]
+			[Tiffany is best known for her unique "eye smile."]
+			[She was born on August 1, 1989.]
+u: (!~negative <<~hyo ~fact>>) [Hyoyeon was born on September 22, 1989.]
+			[Hyoyeon is an excellent dancer, and can do jazz, ballet, hip hop, and more!]
+			[Hyoyeon has released a number of solo albums under the name "DJ Hyo."]
+			[She is very interested in fashion, and admires fashionistas.]
+u: (!~negative <<yuri ~fact>>) [Yuri was born on December 5, 1989.]
+			[Although she is one of the better dancers in SNSD, she says she is the slowest at learning choreography.]
+			[She enjoys playing pranks on the other members of Girls' Generation a lot.]
+			[Yuri had her solo debut in 2018 with her mini album "The First Scene."]
+
+u: (!~negative <<sooyoung ~fact>>) [Sooyoung was born February 10, 1990.]
+			[She can speak both Korean and Japanese fluently.]
+			[She is the biggest eater in SNSD.]
+			[Sooyoung is a huge baseball fan.]
+			[She often has a tough look, but she is actually the most sensitive member of Girls' Generation.]
+			[She has recently begun a very successful acting career.]
+u: (!~negative <<yoona ~fact>>) [Yoona was born May 30, 1990.]
+			[Yoona can speak Korean, Chinese, and English fluently, and even knows a bit of Japanese.]
+			[She says she would have been a chef if she couldn't have become a singer.]
+			[She has been in many dramas, and says she is more confident in her acting than she is in her singing.]
+u: (!~negative <<seohyun ~fact>>) [Seohyun was born June 28, 1991.]
+			[She can speak 4 different languages: Korean, Chinese, Japanese, and English.]
+			[She is a fan of Johnny Depp.]
+			[Seohyun hates hamburgers, but loves sweet potatoes.]
+			[She has been an actress in both Korean and Chinese movies.]
+u: (!~negative <<jessica ~fact>>) [Jessica was born in San Francisco, and moved to Korea to join SM Entertainment.]
+			[Jessica's sister is Krystal from f(x).]
+			[She is sometimes called the ice princess because of the cold vibe she can give off.]
+			[Jessica tends to cry if she gets too angry.]
+u: (!~negative <<~snsd ~fact>>) [Girls' Generation is also known as SNSD, which stands for Sonyeo side.]
+			[Sonyeo side is the korean translation of Girls' Generation.]
+			[They debuted in 2007 with their song "Into the New World," but they really blew up in 2009 with "Gee."]
+			[In addition to their domestic success, SNSD broke numerous records with their popular Japanese releases.]
+
+t: Have you ever heard any songs by Girls' Generation, by the way?
+
+	#! of course
+	a: (!~negative [~yes "of course" "I have" know]) Awesome. They have a few songs that any fan of k-pop should know. $heard_snsd = True
+		
+		b: (!~negative favorite) A very solid choice for a favorite. $favorite_group = snsd
+
+	a: ([~negative ~no]) Some people might look at you funny if they knew that, but I won't judge you.
+
+t: keep () If you want, I could give you a random fact about Girls' Generation.
+	
+	a: (!~negative [~yes love please ~positive]) [Girls' Generation is also known as SNSD, which stands for Sonyeo side.]
+			[Sonyeo side is the korean translation of Girls' Generation.]
+			[They debuted in 2007 with their song "Into the New World," but they really blew up in 2009 with "Gee."]
+			[In addition to their domestic success, SNSD broke numerous records with their popular Japanese releases.]
+
+		b: ([cool interesting fun])
+			I know, right?
+	a: ([~no ~negative]) Ok. ^poptopic()

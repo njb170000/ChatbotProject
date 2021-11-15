@@ -1,0 +1,78 @@
+TOPIC: ~hot keep repeat (hot "h.o.t" "highfive of teenagers" highfive)
+#!x This topic is for anything related to the group H.O.T.
+
+u: ([tell discuss learn] * ~hot) Oh, H.O.T? Yeah, I could tell you a bit about them. Want to hear it?
+	
+	a: ([~yes "of course"]) This is where it all began. H.O.T was created in 1996, and today they are considered to be the first kpop idol group.
+			As a result, every group we have today owes at least some of their success to H.O.T.
+	a: (~no) Fine by me. What next?
+
+?: (who * member) H.O.T had 5 members: Heejun, Woohyuk, Tony, Kangta, and Jaewon.
+
+
+#! what group was "member" a part of, again?
+u: (<<[what where] [heejun woohyuk tony kangta jaewon]>>) Be careful! That one's H.O.T.
+
+u: (!~negative <<heejun ~fact>>) [Heejun was born on March 14, 1978.]
+			[Heejun has mostly left his idol life behind him and started a family! His daughter was born in 2017.]
+			[His favorite color is purple.]
+			[Heejun's favorite food is pizza.]
+			[Heejun was the second member to join H.O.T.]
+
+u: (!~negative <<woohyuk ~fact>>) [Woohyuk was born less than a month after Heejun, in May 1978.]
+			[In 2005, Woohyuk made his solo debut with "Sun That Never Sets."]
+			[His nicknames are Hammer Boy and Tough Guy.]
+			[His favorite season is Fall.]
+			[Woohyuk was the fourth member to join H.O.T.]
+			[Woohyuk likes to stay in shape and relieve stress by playing sports and exercising.]
+
+u: (!~negative <<tony ~fact>>) [Tony's real name is An Seungho.]
+			[He was the fifth and final member to join H.O.T.]
+			[He was born June 7, 1978.]
+			[His favorite season is Fall.]
+			[Maybe Tony would have picked Winter as his favorite season, but he dislikes cold weather.]
+			[Tony is also known as Monkey Boy.]
+			
+
+u: (!~negative <<kangta ~fact>>) [Kangta was the first member to join H.O.T.]
+			[Kangta is the only member of H.O.T still signed with SM, where he continues to produce music as a soloist.]
+			[His favorite color is black.]
+			[He dislikes eating carrots.]
+			[His stress relief activity of choice is sleeping.]
+			[Kangta was born on October 10, 1979.]
+			[Kangta is just a stage name. His real name is Ahn Chilhyun.]
+
+u: (!~negative <<jaewon ~fact>>) [Jaewon was born April 5, 1980.]
+			[He was the third member to join H.O.T.]
+			[Jaewon's favorite color is yellow.]
+			[Jaewon can play the piano quite well.]
+
+u: (!~negative <<~hot ~fact>>) [Their fans are called "White Angels." Kind of weird if you ask me, but I'm just a chatbot.]
+[They're literally the first kpop group ever. There's not gonna be a cooler fun fact than that.]
+[H.O.T. stands for Highfive of Teenagers. Nobody ever claimed their English was awesome.]
+[SM has recently uploaded a remastered version of one of their music videos to youtube. If you're curious about them, that's a good place to start!]
+
+t: Did you know H.O.T. is considered the first ever kpop group?
+
+	#! of course
+	a: (!~negative [~yes "of course" "I have" know]) Look at you, smarty-pants. Do you happen to listen to them at all? $heard_hot = True
+		
+		b: (!~negative favorite) A fan of the classics, I see. $favorite_group = hot
+		b: (~no) That's understandable. Some of their music is probably older than you are.
+		b: (!~negative [~yes ~love ~like]) You have to appreciate how they pioneered the scene.
+
+	a: (~no) If you want to know where kpop started, then consider giving them a listen. Do you want to know a bit more? $heard_hot = False
+		b: (!~negative [~yes "of course" "I have" know]) Then consider checking out their remastered video "age of violence" on youtube!
+		b:([~no ~negative]) No problem. You don't have to listen to them to appreciate the impact they have had on music today.
+
+t: ^keep () If you want, I could give you a random fact about H.O.T.
+	
+	a: (!~negative [~yes love please ~positive]) OK, I've got one.
+		[Their fans are called "White Angels." Kind of weird if you ask me, but I'm just a chatbot.]
+		[They're literally the first kpop group ever. There's not gonna be a cooler fun fact than that.]
+		[H.O.T. stands for Highfive of Teenagers. Nobody ever claimed their English was awesome.]
+		[SM has recently uploaded a remastered version of one of their music videos to youtube. If you're curious about them, that's a good place to start!]
+
+		b: ([cool interesting fun])
+			I know, right?
+	a: ([~no ~negative]) Alright, then what else do you want to talk about? ^poptopic()

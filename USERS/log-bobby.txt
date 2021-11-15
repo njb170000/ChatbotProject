@@ -1,0 +1,7 @@
+﻿
+Nov 14 22:40:21.172 2021 ServerPre: pid: 0 bobby () size=0 
+
+Nov 14 22:40:31.015 2021 ServerPre: pid: 0 bobby (harry) size=12 :build SMART
+    Command: :build SMART
+
+Nov 14 22:40:34.011 2021 ServerPre: pid: 0 bobby () size=0 

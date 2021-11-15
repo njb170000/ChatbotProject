@@ -1,0 +1,101 @@
+﻿USERS/topic_vybu_harry.txt
+jul2116 Nov13'21-15:53:17 Nov13'21-16:05:34 1636841014-4.9.0 |
+19 19 0 DY 0 22 22 0 # start, input#, no rejoinder, #0topics, #1topics, layer2
+~introductions ~aespa #pending
+~aespa + 1 8E~j6 ca j 0 0 
+~introductions + 1 sF1t2 ca 6 0 0 
+#`end topics
+$shutup=1
+$singleresponse=1
+$botprompt=SMART: 
+$userprompt=vybu: >
+$cs_control_main=~control
+$cs_token=75726583
+$cs_login=vybu
+$cs_bot=Harry
+$cs_randindex=1035
+$cs_trace=0
+$cs_time=0
+$fact=61464
+$favorite_girl_group=aespa
+#`end variables
+0 #set flags
+#`end fact sets
+( giselle fact ( ~extent_adverb member ~sys ) x00000020 )
+( winter fact ( ~extent_adverb member ~sys ) x00000020 )
+( ningning fact ( ~extent_adverb member ~sys ) x00000020 )
+( giselle fact ( ~extent_adverb member ~sys ) x00000020 )
+( winter fact ( ~extent_adverb member ~sys ) x00000020 )
+( ningning fact ( ~extent_adverb member ~sys ) x00000020 )
+( giselle fact ( ~extent_adverb member ~sys ) x00000020 )
+( winter fact ( ~extent_adverb member ~sys ) x00000020 )
+( ningning fact ( ~extent_adverb member ~sys ) x00000020 )
+( giselle fact ( ~extent_adverb member ~sys ) x00000020 )
+( winter fact ( ~extent_adverb member ~sys ) x00000020 )
+( ningning fact ( ~extent_adverb member ~sys ) x00000020 )
+( giselle fact ( ~extent_adverb member ~sys ) x00000020 )
+( winter fact ( ~extent_adverb member ~sys ) x00000020 )
+( ningning fact ( ~extent_adverb member ~sys ) x00000020 )
+( giselle fact ( ~extent_adverb member ~sys ) x00000020 )
+( winter fact ( ~extent_adverb member ~sys ) x00000020 )
+( ningning fact ( ~extent_adverb member ~sys ) x00000020 )
+( giselle fact ( ~extent_adverb member ~sys ) x00000020 )
+( winter fact ( ~extent_adverb member ~sys ) x00000020 )
+( ningning fact ( ~extent_adverb member ~sys ) x00000020 )
+( giselle fact ( ~extent_adverb member ~sys ) x00000020 )
+( winter fact ( ~extent_adverb member ~sys ) x00000020 )
+( ningning fact ( ~extent_adverb member ~sys ) x00000020 )
+( giselle fact ( ~extent_adverb member ~sys ) x00000020 )
+( winter fact ( ~extent_adverb member ~sys ) x00000020 )
+( ningning fact ( ~extent_adverb member ~sys ) x00000020 )
+( giselle fact ( ~extent_adverb member ~sys ) x00000020 )
+( winter fact ( ~extent_adverb member ~sys ) x00000020 )
+( ningning fact ( ~extent_adverb member ~sys ) x00000020 )
+#`end user facts 30
+#context ~honest_response 18 GRUNT 
+ hello
+ yes
+ do you have any girl group songs to recommend to me?
+ actually, yes i have
+ they're my favorite group!
+ so who is the newest girl group?
+ hello again
+ aespa
+ could you give me a girl group recommendation, please?
+ You know newest group in SM?
+ You know newest group aespa?
+ so can you recommend a girl group to me?
+ and what sm group is the newest?
+ so can you recommend a girl group to me?
+ so can you recommend a girl group to me?
+ so can you recommend a girl group to me?
+ so can you recommend a girl group to me?
+ can you recommend a song to me please>
+ so can you recommend a girl group to me?
+#`end user
+ Welcome to ChatScript. anyeong
+ Have you been here before?
+ Welcome back!
+ Have you heard of SM's latest girl group, Aespa?
+ Nice! Are you a fan?
+ Wow, that's so cool!
+ I don't know what to say.
+ Anyeong
+ I don't know what to say.
+ I don't know what to say.
+ I don't think so.
+ I don't know what to say.
+ I don't know what to say.
+ Right.
+ If you're looking for a girl group to listen to, Aespa's latest song Savage is a good one.
+ Aespa is SM's latest girl group and they're only about a year old, but that doesn't mean they're any less talented!
+ Why would I want to?
+ I don't know what to say.
+ I don't know what to say.
+ Of course.
+ With practice I can probably do anything.
+ I don't know what to say.
+ I don't know what to say.
+ Fine.
+ Pretty much anything by Aespa is good, so I'd look into them if I were you.
+#`end chatbot

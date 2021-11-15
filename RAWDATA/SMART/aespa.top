@@ -1,0 +1,158 @@
+
+concept: ~ggroup [group band "girl group" girls]
+
+concept: ~group [~ggroup  ~bgroup]
+
+concept: ~recommend [recommend recommends recommendations recommendation suggest suggestion]
+
+concept: ~new [new newest latest rookie young recent]
+
+concept: ~fact [fact "fun fact" trivia tidbit tell]
+
+concept: ~negative [not no hate dislike]
+
+TOPIC: ~aespa keep repeat (aespa karina giselle ningning winter "fourth gen" ~ggroup)
+#!x This topic is for anything related to the group Aespa.
+
+u: ([tell discuss learn] * aespa) I can tell you a bit about Aespa. Is that what you want?
+	
+	a: ([~yes "of course"]) OK. Well, they debuted as a four member group in November 2020 with their song Black Mamba. They tend to have a futuristic theme to their music and videos.
+
+	a: (~no) Fine, then. Pick something else to talk about.
+
+?: (who * member) Aespa's members are Karina, Giselle, Winter, and Ningning.
+
+
+#!what group from SM is the newest?
+?: (<< ~new ["girl group" ~ggroup girl]>>) Aespa is SM's latest girl group and they're only about a year old, but that doesn't mean they're any less talented!
+
+
+#! what group was "member" a part of, again?
+u: (<<[what where] [karina ningning "ning ning" winter giselle]>>) Oh, she's from Aespa!
+
+u: (!~negative <<karina ~fact>>) [Believe it or not, her name isn't actually Karina. Her birth name is Yu Jimin.]
+			[Karina was born on April 11, 2000.]
+			[Her official height and weight are 5'6" and 99 lb, but we all know those tend to be a bit off.]
+			[Karina trained for 4 years before debuting. No wonder she looks so capable when performing!]
+			[Karina made appearnaces in a number of SM productions before debuting. Perhaps most notably was her appearance in Taemin's "Want" music video.]
+			[She's a big tea drinker, especially when it is green or barley.]
+			[Karina is the leader of aespa, as well as one of their main rappers.]
+
+u: (!~negative <<giselle ~fact>>) [Giselle was born in Korea, but grew up in Japan.]
+			[She is fluent in Korean, Japanese, and even English! I only know english and binary...]
+			[Giselle was born on October 30, 2000.]
+			[Giselle's officially 5'5", but rumor is she's actually a bit shorter than that.]
+			[Sometimes her fellow members call her Riri, which comes from her given name, Aeri.]
+			[Giselle can sing well just like the rest of her group, but she is primarily in charge of handling the rap sections of their songs.]
+
+u: (!~negative <<winter ~fact>>) [Winter was immediately popular when she debuted thanks to her striking resemblance to her senior, Taeyeon.]
+			[Her real name is Kim Minjeong.]
+			[Born January 1, 2001, Winter is almost the youngest member of Aespa.]
+			[Winter loves to eat chocolate and other sweets, which matches her personality nicely.]
+			[Winter was vice president of her school's student government.]
+			[Winter is more than capable in every aspect of performance, but her vocals are often considered her best talent.]
+
+u: (!~negative <<ningning ~fact>>) [Ningning's unique stage name comes from her birth name, Ning Yizhuo.]
+			[Ningning was born in China, but moved to Korea to become a kpop idol (I guess that worked out!).]
+			[She is a very creative person with hobies including drawing, cooking, and playing piano.]
+			[Like her leader Karina, Ningning spent four years at SM training before she could debut in Aespa.]
+			[Many people couldn't wait for Ningning to finally officially debut, as she is considered one of the best female singers to debut in recent years.]
+			[She made a name for herself on numerous singing competition shows in China before moving to South Korea.]
+			[She is known for a funny face she makes when bored. Its worth taking a look at if you want a laugh!]
+
+u: (!~negative <<aespa ~fact>>) [The group's name, Aespa, is a combination of the words avatar, experience, and aspect. Very cool.]
+			[The group has four members, but only two of them are from Korea. That's 50%!]
+			[They refer to their fans as "MY." That's not too complicated.]
+			[Aespa has created an entire universe worth of lore that's too complicated to explore here. You should check it out, though!]
+
+t: Have you heard of SM's latest girl group, Aespa?
+
+	#! of course
+	a: (!~negative [~yes "of course" "I have" know]) Nice! Are you a fan? $heard_aespa = True
+		
+		b: (favorite) Wow, that's so cool! $favorite_group = aespa
+		b: (~no) I understand, they definitely have a unique sound.
+		b: (~negative [~yes love ~like]) Me, too! I expect great things from them in the future.
+
+	a: (~no) You should definitely check them out if you like music that is a bit experimental. $heard_aespa = False
+		[I'm a big fan of Karina, the leader, but there's also Giselle, Winter, and Ningning. Want to hear more about one of them?]
+		[I'm a big fan of Giselle, their main rapper, but there's also Karina, Winter, and Ningning. Want to hear more about one of them?]
+		[I'm a big fan of Winter, one of their vocalists, but there's also Giselle, Karina, and Ningning. Want to hear more about one of them?]
+		[I'm a big fan of Ningning, one of their vocalists, but there's also Giselle, Winter, and Karina. Want to hear more about one of them?]
+		
+		b: (~yes) Which one? Or maybe you want to know more about Aespa as a whole?
+			c: (Karina) [Karina was born on April 11, 2000.]
+			[Her official height and weight are 5'6" and 99 lb, but we all know those tend to be a bit off.]
+			[Karina trained for 4 years before debuting. No wonder she looks so capable when performing!]
+			[Karina made appearnaces in a number of SM productions before debuting. Perhaps most notably was her appearance in Taemin's "Want" music video.]
+			[She's a big tea drinker, especially when it is green or barley.]
+			[Karina is the leader of aespa, as well as one of their main rappers.]
+
+			c: (Giselle) [She is fluent in Korean, Japanese, and even English! I only know english and binary...]
+			[Giselle was born on October 30, 2000.]
+			[Giselle's officially 5'5", but rumor is she's actually a bit shorter than that.]
+			[Sometimes her fellow members call her Riri, which comes from her given name, Aeri.]
+			[Giselle can sing well just like the rest of her group, but she is primarily in charge of handling the rap sections of their songs.]
+
+			c: (Winter) [Winter was immediately popular when she debuted thanks to her striking resemblance to her senior, Taeyeon.]
+			[Her real name is Kim Minjeong.]
+			[Born January 1, 2001, Winter is almost the youngest member of Aespa.]
+			[Winter loves to eat chocolate and other sweets, which matches her personality nicely.]
+			[Winter was vice president of her school's student government.]
+			[Winter is more than capable in every aspect of performance, but her vocals are often considered her best talent.]
+
+			c: (Ningning) [Ningning's unique stage name comes from her birth name, Ning Yizhuo.]
+			[Ningning was born in China, but moved to Korea to become a kpop idol (I guess that worked out!).]
+			[She is a very creative person with hobies including drawing, cooking, and playing piano.]
+			[Like her leader Karina, Ningning spent four years at SM training before she could debut in Aespa.]
+			[Many people couldn't wait for Ningning to finally officially debut, as she is considered one of the best female singers to debut in recent years.]
+			[She made a name for herself on numerous singing competition shows in China before moving to South Korea.]
+			[She is known for a funny face she makes when bored. Its worth taking a look at if you want a laugh!]
+			c: ([aespa group whole do]) [The group's name, Aespa, is a combination of the words avatar, experience, and aspect. Very cool.]
+			[The group has four members, but only two of them are from Korea. That's 50%!]
+			[They refer to their fans as "MY." That's not too complicated.]
+			[Aespa has created an entire universe worth of lore that's too complicated to explore here. You should check it out, though!]
+
+		b: (~no) Oh, ok... How about a different topic then? ^poptopic()
+		b: (Karina) [Karina was born on April 11, 2000.]
+			[Her official height and weight are 5'6" and 99 lb, but we all know those tend to be a bit off.]
+			[Karina trained for 4 years before debuting. No wonder she looks so capable when performing!]
+			[Karina made appearnaces in a number of SM productions before debuting. Perhaps most notably was her appearance in Taemin's "Want" music video.]
+			[She's a big tea drinker, especially when it is green or barley.]
+			[Karina is the leader of aespa, as well as one of their main rappers.]
+
+		b: (Giselle) [She is fluent in Korean, Japanese, and even English! I only know english and binary...]
+			[Giselle was born on October 30, 2000.]
+			[Giselle's officially 5'5", but rumor is she's actually a bit shorter than that.]
+			[Sometimes her fellow members call her Riri, which comes from her given name, Aeri.]
+			[Giselle can sing well just like the rest of her group, but she is primarily in charge of handling the rap sections of their songs.]
+
+		b: (Winter) [Winter was immediately popular when she debuted thanks to her striking resemblance to her senior, Taeyeon.]
+			[Her real name is Kim Minjeong.]
+			[Born January 1, 2001, Winter is almost the youngest member of Aespa.]
+			[Winter loves to eat chocolate and other sweets, which matches her personality nicely.]
+			[Winter was vice president of her school's student government.]
+			[Winter is more than capable in every aspect of performance, but her vocals are often considered her best talent.]
+
+		b: (Ningning) [Ningning's unique stage name comes from her birth name, Ning Yizhuo.]
+			[Ningning was born in China, but moved to Korea to become a kpop idol (I guess that worked out!).]
+			[She is a very creative person with hobies including drawing, cooking, and playing piano.]
+			[Like her leader Karina, Ningning spent four years at SM training before she could debut in Aespa.]
+			[Many people couldn't wait for Ningning to finally officially debut, as she is considered one of the best female singers to debut in recent years.]
+			[She made a name for herself on numerous singing competition shows in China before moving to South Korea.]
+			[She is known for a funny face she makes when bored. Its worth taking a look at if you want a laugh!]
+		b: ([aespa group whole do]) [The group's name, Aespa, is a combination of the words avatar, experience, and aspect. Very cool.]
+			[The group has four members, but only two of them are from Korea. That's 50%!]
+			[They refer to their fans as "MY." That's not too complicated.]
+			[Aespa has created an entire universe worth of lore that's too complicated to explore here. You should check it out, though!]
+
+
+
+t: ^keep () If you want, I could give you a random fact about Aespa.
+	
+	a: (!~negative [~yes love please ~positive]) OK, I've got one.
+		[a bunch of random]
+		[facts go here]
+		b: ([cool interesting fun])
+			I know, right?
+	a: ([~no ~negative]) Alright, then what else do you want to talk about? ^poptopic()

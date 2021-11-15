@@ -1,0 +1,27 @@
+﻿
+Nov 14 22:29:56.998 2021 ServerPre: pid: 0 noah () size=0 
+
+Nov 14 22:30:11.801 2021 ServerPre: pid: 0 noah (harry) size=13 You are SMART
+Nov 14 22:30:11.800 2021 Respond: user:noah bot:harry len:14 ip: (~helper) 1 You are SMART  ==> Quite true. If you're not familiar with kpop or SM Entertainment, try asking me about them. If you want to talk about a specific group, but don't know the name, you can ask me what groups are in SM. You can also ask me for facts about any group or member in SM; facts are my specialty. I can also give you a few recommendations if you would rather start there. I am also able to remember your favorite group! Just tell me "(group) is my favorite group" and I will be sure to ask about it next time we talk. Finally, if you can't remember who's from where, just ask me! I can tell you all the members of a group, or which group a specific person is from. If you ever need to see this message again, just type "You are SMART." I will also respond to "help," but that one is a lot less fun, don't you think?  When:Nov 14 22:30:11.807 2021 7ms 0wait Why:~helper.0.0.~control.9.0  JOpen:0/0
+
+Nov 14 22:30:32.476 2021 ServerPre: pid: 0 noah (harry) size=24 tell me about SM, please
+Nov 14 22:30:32.476 2021 Respond: user:noah bot:harry len:25 ip: (~sm) 2 tell me about SM, please  ==> SM Entertainment started out as just a music company, but these days they do almost everything. Their talent is active in music, acting, reality shows, and much more. The company is always looking to the future, as well, investing in new technologies, markets, and ideas in an effort to bring the future of entertainment to their customers. The company also has a warmer, family-oriented tone than a lot of rival companies. With their signature pink color and teddy bear mascot, SM have mastered appealing to a wide audience with their image and music.  When:Nov 14 22:30:32.482 2021 6ms 0wait Why:~sm.11.0.~control.9.0  JOpen:0/0
+
+Nov 14 22:30:56.873 2021 ServerPre: pid: 0 noah (harry) size=22 what groups are there?
+Nov 14 22:30:56.873 2021 Respond: user:noah bot:harry len:23 ip: (~sm) 3 what groups are there?  ==> SM has helped so many groups debut over the years. Here's a list of some of the ones I can talk with you about: HOT, SES, Super Junior, Girls' Generation, Shinee, Exo, F (x), Red Velvet, NCT, and Aespa.  When:Nov 14 22:30:56.878 2021 5ms 0wait Why:~sm.8.0.~control.9.0  JOpen:0/0
+
+Nov 14 22:31:26.650 2021 ServerPre: pid: 0 noah (harry) size=33 give me a fact about Super Junior
+Nov 14 22:31:26.650 2021 Respond: user:noah bot:harry len:34 ip: (~suju) 4 give me a fact about Super Junior  ==> There are 5 different subunits of Super Junior! How could anyone keep them all straight?  When:Nov 14 22:31:26.655 2021 5ms 0wait Why:~suju.15.0.~control.9.0  JOpen:0/0
+
+Nov 14 22:31:57.434 2021 ServerPre: pid: 0 noah (harry) size=47 wow, then I'll say Super Junior is my favorite.
+Nov 14 22:31:57.434 2021 Respond: user:noah bot:harry len:48 ip: (~songrec) 5 wow, then I'll say Super Junior is my favorite.  ==> You think wow, then I will say super junior is your favorite group in SM?  When:Nov 14 22:31:57.441 2021 7ms 0wait Why:~songrec.3.0.~control.9.0  JOpen:0/0
+
+Nov 14 22:32:14.803 2021 ServerPre: pid: 0 noah (harry) size=3 no.
+Nov 14 22:32:14.803 2021 Respond: user:noah bot:harry len:4 ip: (~songrec) 6 no.  ==> Oh, maybe I didn't understand you, then.  When:Nov 14 22:32:14.807 2021 4ms 0wait Why:~songrec.3.2  JOpen:0/0
+
+Nov 14 22:32:45.319 2021 ServerPre: pid: 0 noah (harry) size=27 who is your favorite, then?
+Nov 14 22:32:45.318 2021 Respond: user:noah bot:harry len:28 ip: (~songrec) 7 who is your favorite, then?  ==> Is this a competition? If I name one, will you try to name a better one?  When:Nov 14 22:32:45.324 2021 6ms 0wait Why:~quibble_who.46.0.~quibble_all.1.0  JOpen:0/0
+
+Nov 14 22:38:22.207 2021 ServerPre: pid: 0 noah (harry) size=5 :quit
+    Command: :quit
+    Exiting ChatScript via Quit

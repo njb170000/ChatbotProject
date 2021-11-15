@@ -1,0 +1,46 @@
+﻿USERS/topic_newguy_harry.txt
+jul2116 Nov13'21-21:15:41 Nov13'21-22:23:42 1636860025-23.8.0.24.12.0 |
+25 37 0 DY 0 26 26 0 # start, input#, no rejoinder, #0topics, #1topics, layer2
+~sm ~introductions ~rv ~aespa #pending
+~aespa + 2 T2z#5 aaga z 0 0 
+~exo + 3 O#TS1 aaaaga B 0 0 
+~introductions + 1 sF1t2 ca j 0 0 
+~rv + 2 u3!l5 aaga v 0 0 
+~sm + 2 kFHQ3 baaa 8 0 0 
+#`end topics
+$shutup=1
+$singleresponse=1
+$botprompt=SMART: 
+$userprompt=newguy: >
+$cs_control_main=~control
+$cs_token=75726583
+$cs_login=newguy
+$cs_bot=Harry
+$cs_randindex=2980
+$cs_trace=0
+$cs_time=0
+#`end variables
+0 #set flags
+#`end fact sets
+#`end user facts 0
+#context ~aespa 34 KEEP ~exo 36 KEEP 
+ i said red velvet fact!
+ thank you
+ indeed
+ they're the best
+ please do
+ and where is sehun from?
+ no thanks
+#`end user
+ Red Velvet is known for great harmonies and a wide variety of sounds, so they're bound to have at least one song for everyone.
+ If you want, I could give you a random fact about Red Velvet.
+ You know Exo, don't you?
+ If you want to know what everyone in Korea was listening to for the past decade, you need to start with Exo. would you like to learn a bit more about them?
+ Red Velvet is one of the shortest groups in kpop with only Joy surpassing 5'5\".
+ Have you heard of SM's latest girl group, Aespa?
+ Nice! Are you a fan?
+ If you want, I could give you a random fact about Aespa.
+ OK, I've got one. facts go here
+ If you want, I could give you a random fact about Exo.
+ Alright, then what else do you want to talk about?
+#`end chatbot

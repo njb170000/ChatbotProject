@@ -1,0 +1,60 @@
+TOPIC: ~ses keep repeat (ses "s.e.s" Sea Eugene Shoo Bada)
+#!x This topic is for anything related to the group S.E.S.
+
+u: ([tell discuss learn] * [ses "s.e.s."]) You want to know a bit about S.E.S?
+	
+	a: (!~negative [~yes "of course"]) While H.O.T. was the SM's first idol group, S.E.S. was their first female group. Created in 1997,
+			This group of three girls is often considered the female counterpart to their big brothers, H.O.T.
+	a: (~no) Alright, what do you want to talk about then?
+
+?: (who * member) S.E.S. had 3 members; Bada (Sea), Eugene, and Shoo.
+
+
+#! what group was "member" a part of, again?
+u: (<<[what where] [bada sea eugene shoo]>>) She was in SM's flagship girl group, S.E.S.
+
+u: (!~negative <<bada ~fact>>) [Bada was born February 28, 1980.]
+			[She was the first member of S.E.S. to be revealed, and was originally called Sea.]
+			[Before making it in S.E.S., Bada faced serious financial problems, only having a place to live for 9 years thanks to a generous church.]
+			[In 2020, Bada had her first child, a girl.]
+			[After leaving S.E.S., Bada continued to act and perform with other companies, and even did vocal coaching for other would-be idols.]
+
+u: (!~negative <<eugene ~fact>>) [Eugene was born March 3, 1981.]
+			[As a kid, her family moved to America, and she moved back to Korea in high school.]
+			[Thanks to her time spent abroad, Eugene is fluent in English.]
+			[After S.E.S. disbanded, Eugene went on to write two books on beauty.]
+			[Her stage name, Eugene, sounds like her real name, Yoojin.]
+
+u: (!~negative <<shoo ~fact>>) [She was born October 23, 1981.]
+			[Shoo is actually Japanese, making her the only non-Korean member of S.E.S.]
+			[Her hobbies include playing baseball and basketball, and swimming.]
+			[Shoo now has 3 kids! One boy and two girls.]
+ 
+u: (!~negative <<ses ~fact>>) [S.E.S. was formed in 1997 and disbanded in 2002 after contract negotiations broke down between the members and SM.]
+			[They call their fans "friend." That's a nice and simple one.]
+			[Although they disbanded in 2002, S.E.S. had a reunion album in 2017 to celebrate the group's 20th anniversary.]
+			[S.E.S. was the best selling girl group of their time, and today people consider the first generation of girl groups
+			 to be defined primarily by S.E.S.]
+			[It has become a bit of a tradition for SM's girl groups to cover songs from their predecessors. One example is when Red Velvet performed a cover
+			 of one of S.E.S.'s songs, Be Natural.]
+t: Are you a fan of S.E.S. by any chance? I promise I won't call you old.
+
+	#! of course
+	a: (!~negative [~yes "of course" "I have" know]) Very cool. Not a lot of people are still listening to them these days. $heard_hot = True
+		
+		b: (!~negative favorite) A fan of the classics, I see. $favorite_group = ses
+		b: (~no) That's understandable. Some of their music is probably older than you are.
+		b: (!~negative [~yes ~love ~like]) You have to appreciate how they pioneered the scene.
+
+t: ^keep () If you want, I could give you a random fact about S.E.S.
+	
+	a: (!~negative [~yes love please ~positive]) [S.E.S. was formed in 1997 and disbanded in 2002 after contract negotiations broke down between the members and SM.]
+		[They call their fans "friend." That's a nice and simple one.]
+		[Although they disbanded in 2002, S.E.S. had a reunion album in 2017 to celebrate the group's 20th anniversary.]
+		[S.E.S. was the best selling girl group of their time, and today people consider the first generation of girl groups
+		 to be defined primarily by S.E.S.]
+		[It has become a bit of a tradition for SM's girl groups to cover songs from their predecessors. One example is when Red Velvet performed a cover
+		 of one of S.E.S.'s songs, Be Natural.]
+		b: ([cool interesting fun])
+			I know, right?
+	a: ([~no ~negative]) Alright, then what else do you want to talk about? ^poptopic()

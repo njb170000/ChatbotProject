@@ -1,0 +1,145 @@
+TOPIC: ~nct keep repeat (nct nct127 "nct 127" nctu "nct u" "nct dream" dream 127 wayv neo culture technology)
+#!x This topic is for anything related to the group NCT.
+
+u: ([tell discuss learn] * ~nct) They're super popular these days. Want me to tell you about NCT?
+	
+	a: ([~yes "of course"]) NCT first debuted in 2016, and like their seniors Super Junior, they have a slightly complicated system of subunits.
+			They took it a step further however, with the concept of an ever-growing roster. The first song they released featured just 
+			five members. Today, they have 23 different members all shifting between different groups depending on what the song calls for.
+
+	a: (~no) Yeah, it makes my brain hurt, anyway.
+
+?: (who * member) NCT has 23 members so far, so buckle up:
+			In NCT 127 we have Taeil, Johnny, Taeyong, Yuta, Doyoung, Jaehyun, Winwin, Jungwoo, Mark and Haechan
+			(those last two are also in the next group). In NCT Dream there's Renjun, Jeno, Jaemin, Chenle, and Jisung.
+			Then we have the Chinese guys from Wayv: Kun, Ten, Lucas, Xiaojun, Hendery, and Yangyang (Winwin from 127 also goes here).
+			Finally, there's a couple that don't have a permanent home yet: Shotaro and Sungchan. Whew.
+
+
+#! what group was "member" a part of, again?
+u: (<<[what where] [taeil taeyong doyoung jaehyun mark yuta winwin haechan johnny jungwoo]>>)
+	He's one of the members of NCT 127!
+
+u: (<<[what where] [mark haechan renjun jeno jaemin chenle jisung]>>) I could do that in my sleep. NCT Dream, of course.
+
+u: (<<[what where] [ten winwin lucas kun xiaojun hendery yangyang]>>) WayV, the chinese subunit of NCT.
+
+u: (<<[what where] [shotaro sungchan]>>) He's in NCT.
+
+u: (!~negative <<taeil ~fact>>) [Taeil was born on June 14, 1994.]
+			[His favorite color is black.]
+			[His favorite number is 1.]
+			[The first thing Taeil notices about someone is their eyes.]
+u: (!~negative <<taeyong ~fact>>) [He was born July 1, 1995.]
+			[He was featured as a rapper in Red Velvet's Be Natural while he was a trainee.]
+			[Taeyong's favorite color is pink (Lee Soo Man would be proud).]
+			[His feature that he likes the most is his eyes.]
+u: (!~negative <<doyoung ~fact>>) [He was born on Fabruary 1, 1996.] 
+			[His favorite color is blue.]
+			[When asked what he likes, Doyoung said sleep, food, and buddy Jeno!]
+			[Doyoung hates cucumbers.]
+u: (!~negative <<ten ~fact>>) [Ten was born on February 27, 1996 in Thailand.]
+			[He is called Ten because there are ten letters in his real name.]
+			[Ten's birth name is Chittaphon Leechaiyapornkul.]
+			[He can speak Korean, Thai, English, Mandarin, and Japanese. Crazy!]
+			[Ten notoriously dislikes fruits.]
+u: (!~negative <<jaehyun ~fact>>) [Jaehyun's birthday is February 14, 1997.]
+			[His English name is Jay. Makes sense.]
+			[Jaehyun's favorite sport is basketball.]
+			[Don't make him angry! Jaehyun has a black belt in Taekwondo.]
+u: (!~negative <<mark ~fact>>) [Mark was born August 2, 1999 in Toronto, Canada.]
+			[His favorite color is blue.]
+			[Mark dislikes ketchup.]
+			[Some say Mark is overworked because he is an active member in 3 different groups! NCT 127 and dream, and even SuperM.]
+u: (!~negative <<yuta ~fact>>) [Yuta's birthday is October 26, 1995.]
+			[He was born in Osaka, Japan. Unsurprisingly, he can speak both Japanese and Korean.]
+			[Yuta's favorite color is yellow.]
+			[His lucky number is 10.]
+u: (!~negative <<winwin ~fact>>) [Winwin's birthday is October 28, 1997.]
+			[Coming from China, it's no surprise Winwin can speak Korean and Chinese, and is a part of the Chinese subunit WayV.]
+			[He says Exo is his favorite music group.]
+			[Winwin dislikes heights and plane rides.]
+u: (!~negative <<haechan ~fact>>) [Haechan's real name is Lee Donghyuck.]
+			[Haechan was born June 6, 2000.]
+			[Haechan admires Michael Jackson a lot, and even dressed as him for Halloween once.]
+			[He is often in charge of keeping the group's spirits up. He loves to laugh and joke around.]
+u: (!~negative <<renjun ~fact>>) [Renjun was born March 23, 2000.]
+			[Renjun says he looks up to Lay from Exo, a fellow Chinese idol.]
+			[Renjun enjoys drawing and painting in his free time.]
+			[Although he made it clear he doesn't hate any part of school, he said his favorite subject is Korean.]
+u: (!~negative <<jeno ~fact>>) [Jeno's birthday is April 23, 2000.]
+			[Jeno's favorite color is blue.]
+			[Jeno can play violin and guitar in addition to singing and dancing.]
+			[He owns 3 cats.]
+u: (!~negative <<jaemin ~fact>>) [Jaemin was born on August 13, 2000.]
+			[His nickname is Na Na (which Lucas famously took a while to figure out).]
+			[His favorite color is white.]
+			[Jaemin's favorite number is 3.]
+u: (!~negative <<chenle ~fact>>) [He was born November 22, 2001.]
+			[Chenle is afraid of spiders.]
+			[He enjoys cooking.]
+			[Chenle is known as "Dolphin" because he often makes high pitched laughs and screams.]
+u: (!~negative <<jisung ~fact>>) [Jisung was born February 5, 2002.]
+			[His favorite sport is soccer.]
+			[Jisung is ver scared of cockroaches.]
+			[His english name is Andy (Mark thinks this is quite humorous).]
+u: (!~negative <<johnny ~fact>>) [His birthday is February 9, 1995.]
+			[Johnny was born in Chicago and moved to Korea to join SM.]
+			[He can speak both English and Korean, thanks to his time in Chicago.]
+			[Johnny is particularly clumsy and bumps into things a lot.]
+u: (!~negative <<jungwoo ~fact>>) [Jungwoo was born February 19, 1998.]
+			[People say he looks like Snoopy from Peanuts.]
+			[Jungwoo is skilled at impressions.]
+			[He really enjoys watching soccer matches.]
+u: (!~negative <<lucas ~fact>>) [Lucas was born on January 25, 1999.]
+			[When asked what he dislikes, Lucas responded with mosquitoes.]
+			[He reportedly eats the most out of all of NCT's members.]
+			[He enjoys playing computer games in his free time.]
+u: (!~negative <<kun ~fact>>) [Kun was born on January 1, 1996.]
+			[He is from China, and so can speak both Chinese and Korean.]
+			[Kun is a magician in his free time.]
+			[He has two dogs named Xiao Mi and Fei Fei.]
+u: (!~negative <<xiaojun ~fact>>) [Xiaojun's birthday is August 8, 1999.]
+			[One of his hobbies is writing songs. Maybe we will hear some of them on future NCT albums!]
+			[Xiaojun's favorite color is green.]
+			[His favorite fictional character is Jack from Titanic. Kinda weird, but ok.]
+u: (!~negative <<hendery ~fact>>) [Hendery was born September 28, 1999.]
+			[He is sometimes called cucumber, donkey, or Prince Eric.]
+			[Hendery's favorite color is pink.]
+			[He enjoys basketball, billiards, and walks.]
+u: (!~negative <<yangyang ~fact>>) [Yangyang was born October 10, 2000.]
+			[He can speak German and English, in addition to Mandarin and Korean.]
+			[Yangyang's favorite color is red.]
+			[He likes the nickname xiaoyang, which means little sheep.]
+u: (!~negative <<shotaro ~fact>>) [Shotaor's birthday is November 25, 2000.]
+			[Shotaro's favorite color is blue.]
+			[He likes sweets the most when it comes to food.]
+			[Shotaro was moderately famous on tiktok before he became a trainee with SM.]
+u: (!~negative <<sungchan ~fact>>)[Sungchan was born on September 13, 2001.]
+			[He is the tallest member of NCT at 6'1".]
+			[His nickname is Jinsung.]
+			[He enjoys exercising, soccer, and playing video games.]
+u: (!~negative <<~nct ~fact>>) [NCT stands for Neo Culture Technology, which fits the groups ultra modern theme.]
+			[NCT Dream is one of NCT's subunits. They historically were the cuter side of NCT, but they have taken a more mature role recently.]
+			[NCT 127 is often considered the "main" subunit in NCT. The 127 refers to the longitude of Seoul.]
+			[WayV is NCT's Chinese subunit. They spend a lot of time in China, so they are somewhat separated from the rest of NCT.]
+			[NCT U is the name used for any combination of NCT members besides the main 3.]
+
+
+t: Do you like any of the NCT subunits?
+
+	a: (!~negative 127) A safe choice, but definitely a valid one.
+	a: (!~negative dream) How fun! They are pretty good.
+	a:(!~negative wayv) Ooh, they are cool.
+	a:(!~negative U) I'm not sure if that really counts as one unit, but I'll let you have it.
+
+t: ^keep () If you want, I could give you a random fact about NCT.
+	
+	a: (!~negative [~yes love please ~positive]) [NCT stands for Neo Culture Technology, which fits the groups ultra modern theme.]
+			[NCT Dream is one of NCT's subunits. They historically were the cuter side of NCT, but they have taken a more mature role recently.]
+			[NCT 127 is often considered the "main" subunit in NCT. The 127 refers to the longitude of Seoul.]
+			[WayV is NCT's Chinese subunit. They spend a lot of time in China, so they are somewhat separated from the rest of NCT.]
+			[NCT U is the name used for any combination of NCT members besides the main 3.]
+		b: ([cool interesting fun])
+			I know, right?
+	a: ([~no ~negative]) Alright, then what else do you want to talk about? ^poptopic()

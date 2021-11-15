@@ -1,0 +1,3 @@
+﻿ ~ses.0.0 #!x This topic is for anything related to the group S.E.S.
+ ~ses.2.0 #! what group was "member" a part of, again?
+     ~ses.7.1 #! of course

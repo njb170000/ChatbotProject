@@ -1,0 +1,86 @@
+
+
+TOPIC: ~rv keep repeat (rv "red velvet" irene seulgi wendy yeri joy reve reveluv luvie ~ggroup)
+
+#!x This topic is for anything related to the group Red Velvet.
+
+u: ([tell discuss learn] * "red velvet") You want to hear about Red Velvet?
+	
+	a: ([~yes "of course"]) OK. Well, they debuted as a four member group in August 2014 with "Happiness", but they added a fifth member in March 2015. They are considered to be a part of the "holy trinity"
+		of 3rd generation girl groups, along with BlackPink and Twice.
+
+	a: (~no) Fine, then. Pick something else to talk about.
+
+?: (who * member) Irene, Seulgi, Wendy, Joy, and Yeri make up Red Velvet.
+
+#! what group was "member" a part of, again?
+u: (<<[what where] [Irene Seulgi Wendy Joy Yeri]>>) Red Velvet, of course! How could you forget?
+
+u: (!~negative <<irene ~fact>>) [Irene is the oldest member, born March 29, 1991.]
+			[She is considered the mom of the group, always taking care of the other members and keeping them in line.]
+			[Irene was born and raised in Daegu, a region known for its strong accent, so she sometimes lets it through to make people laugh.]
+			[Her real name isn't Irene, it's Bae Joohyun.]
+			[Her official representative animal is a rabbit.]
+			[Irene's official color is red or pink.]
+			[Although she can also sing, Irene is known as one of Red Velvet's rappers.]
+			[She is officially 5'3", but many people think she is being generous with that measurement.]
+
+u: (!~negative <<seulgi ~fact>>) [Seulgi is one of two members to use her real name as her stage name.]
+			[Her representative animal is a bear because she is often compared to a teddy bear.]
+			[She was born February 10, 1994. Just a few days away from her best friend, Wendy.]
+			[She is often in the conversation when people talk about the best female dancers in kpop, but she can sing, too!]
+			[Officially 5'5", but in reality Seulgi is closer to 5'3".]
+			[Her official color is orange or yellow.]
+			[Seulgi is known for having a dual personality. Offstage she is clumsy and soft, but when performing she becomes charismatic.]
+
+u: (!~negative <<wendy ~fact>>) [Wendy's birth name is Park Soo Young. Wendy is just her English name.]
+			[Wendy was born on February 21, 1994. Thats 11 days after Seulgi, her group member and best friend.]
+			[Wendy had a terrible accident when rehearsing for a performance, resulting in a year of recovery in 2020.]
+			[She can play many instruments, including piano, guitar, and the flute.]
+			[Wendy is fluent in English as well as Korean, thanks to her childhood years spent in America and Canada.]
+			[Like many of her fellow members, people suspect Wendy may be overestimating a smidge when she says she is 5'3".]
+			[After recovering from her injuries, Wendy made a solo debut with her song "Like Water."]
+			[Her representative animal is a hamster.]
+			[Wendy's official color is blue.]
+
+u: (!~negative <<joy ~fact>>) [Her real name is Park Sooyoung.]
+			[Joy recently made a solo debut with a remake of the song "Hello."]
+			[She has acted in a number of shows over the years, and is looking to continue acting in the future.]
+			[She adores her dog Haetnim, and even made an instagram account just for him!]
+			[Joy's favorite nickname for herself is "sexy dynamite."]
+			[Her representative animal is a chick.]
+			[Joy's official color is green.]
+			[Joy is by far the tallest member of Red Velvet at 5'6" tall.]
+
+u: (!~negative <<yeri ~fact>>) [Yeri was born on March 5, 1999. That means she is 8 years younger than her leader, Irene!]
+			[Yeri is a big fan of Ariana Grande, so she was ecstatic when Ari followed her on Instagram.]
+			[Yeri's representative animal is the unicorn, although it used to be a turtle.]
+			[Her representative color is purple.]
+			[She did not debut when the rest of the members did. Instead, she joined for their first physical release, "Ice Cream Cake."]
+			[Whenever Red Velvet travels overseas, Yeri likes to talk to people she meets and promote her group.]
+			[Yeri is just 5'2" tall, but compared to the rest of her group, that's really not so bad.]
+u: (!~negative <<"red velvet" ~fact>>) [Red Velvet's name is a reference to their music, which has two distinct styles: exciting like red and smooth like velvet.]
+			[Red Velvets fans are called Reveluvs, but it is usually shortened to luvies.]
+			[Red Velvet had to take a year off from making music when Wendy seriously hurt herself after falling off a stage in rehearsal.]
+			[It is pretty common for a group to lose a member or two over time, but Red Velvet is one of just a few that successfully added a member after debut.]
+			[Red Velvet is one of the shortest groups in kpop with only Joy surpassing 5'5".]
+
+t: You're a fan of Red Velvet, are you?
+
+	a: (favorite) Wow, that's so cool! $favorite_group = red velvet
+	a: (~negative [~yes ~love ~like]) Me, too! I expect great things from them in the future.
+	a: (~no) Red Velvet is known for great harmonies and a wide variety of sounds, so they're bound to have at least one song for everyone.
+
+
+
+t: ^keep () If you want, I could give you a random fact about Red Velvet.
+	
+	a: (!~negative [~yes love please ~positive]) OK, I've got one.
+		[Red Velvet's name is a reference to their music, which has two distinct styles: exciting like red and smooth like velvet.]
+		[Red Velvets fans are called Reveluvs, but it is usually shortened to luvies.]
+		[Red Velvet had to take a year off from making music when Wendy seriously hurt herself after falling off a stage in rehearsal.]
+		[It is pretty common for a group to lose a member or two over time, but Red Velvet is one of just a few that successfully added a member after debut.]
+		[Red Velvet is one of the shortest groups in kpop with only Joy surpassing 5'5".]
+		b: ([cool interesting fun])
+			I know, right?
+	a: ([~no ~negative]) Alright, then what else do you want to talk about? ^poptopic()

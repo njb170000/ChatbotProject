@@ -1,0 +1,6 @@
+# underlying conversation system
+RAWDATA/SMART/	
+# quibble ability
+RAWDATA/QUIBBLE/
+
+

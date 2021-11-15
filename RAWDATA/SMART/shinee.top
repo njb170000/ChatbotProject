@@ -1,0 +1,66 @@
+TOPIC: ~shinee keep repeat (shinee shawol taemin onew key minho jonghyun)
+#!x This topic is for anything related to the group shinee.
+
+u: ([tell discuss learn] * [shinee]) Shinee, eh? You want to hear about them?
+	
+	a: (!~negative [~yes "of course"]) Shinee debuted in 2008 as a five member boy group that quickly took over Korea. They have recently been taking turns in the military,
+			but are looking to continue to make music together once they have all finished. They are now a four member group, but most of their time is spent on solo activities, anyway.
+	a: (~no) Then why did you bring it up?
+
+?: (who * member) Shinee debuted as a 5 member group with Onew, Minho, Key, Jonghyun, and Taemin. They now promote as a four member group, following the tragic death of Jonghyun in 2017.
+
+
+#! what group was "member" a part of, again?
+u: (<<[what where] [onew minho taemin key jonghyun]>>) He's a part of Shinee, clearly.
+
+u: (!~negative <<onew ~fact>>) [Onew was born on December 14, 1989.]
+			[His real name is Lee Jinki.]
+			[One of his many nicknames is: Tofu.]
+			[Onew enlisted in military service in 2018, and got back in July 2020.]
+			[Onew has appeared in a number of shows over the years, bu he has never had a very major role.]
+
+u: (!~negative <<minho ~fact>>) [Minho was born December 9, 1991.]
+			[Minho became a trainee at SM in 2006, meaning he trained for just two years before debuting in Shinee.]
+			[He is apparently the Shinee member that can eat the most food in one sitting. What an accomplishment!]
+			[He has acted in a number of movies, but only started a decade after his debut!]
+
+u: (!~negative <<taemin ~fact>>) [Taemin was born July 18, 1993.]
+			[Taemin can speak Japanese in addition to Korean.]
+			[He has a fear of bugs.]
+			[Taemin has had a very successful solo career while Shinee has been unable to make music as a group.]
+			[Taemin is currently doing his mandatory military service, which he left for in may of 2021.]
+
+u: (!~negative <<key ~fact>>) [Key is a stylization of part of his real name, Kim Kibum.]
+			[Key can speak not only Korean, but also English and Japanese.]
+			[He has a fear of heights.]
+			[Key returned home from his military service in October 2020.]
+			[He considers himself an excellent chef.]
+
+u: (!~negative <<jonghyun ~fact>>) [Jonghyun was born April 8, 1990 and passed away December 18, 2017.]
+			[One of his nicknames is "Bling Bling Jonghyun."]
+			[In addition to singing, Jonghyun could play piano, guitar, and bass.]
+			[Jonghyun was an accomplished solo performer, and helped to write many of his own songs and some of Shinee's songs, too.]
+
+u: (!~negative <<shinee ~fact>>) [Shinee's fandom is called Shawol, which is a combination of Shinee and world.]
+			[Shinee debuted in 2008 and are still a functioning group, although they have had to slow down due to military service.]
+			[Shinee was wildly successful in Japan as well as Korea, which was not extremely commonwhen they first released a japanese song in 2011.]
+			[Shinee is known for their complex dances combined with impressive live vocals. Sometimes even they can't keep all the dance moves straight!]
+
+
+t: Have you ever heard any songs by Shinee, by the way?
+
+	#! of course
+	a: (!~negative [~yes "of course" "I have" know]) Awesome. They have a few songs that any fan of k-pop should know. $heard_shinee = True
+		
+		b: (!~negative favorite) A very solid choice for a favorite. $favorite_group = shinee
+
+	a: ([~negative ~no]) Unless you want to seem uneducated, you need to listen to Ring Ding Dong by Shinee. Maybe it isn't your favorite, but its something everyone should do once.
+t: ^keep () If you want, I could give you a random fact about Shinee.
+	
+	a: (!~negative [~yes love please ~positive]) [Shinee's fandom is called Shawol, which is a combination of Shinee and world.]
+			[Shinee debuted in 2008 and are still a functioning group, although they have had to slow down due to military service.]
+			[Shinee was wildly successful in Japan as well as Korea, which was not extremely commonwhen they first released a japanese song in 2011.]
+			[Shinee is known for their complex dances combined with impressive live vocals. Sometimes even they can't keep all the dance moves straight!]
+		b: ([cool interesting fun])
+			I know, right?
+	a: ([~no ~negative]) Alright, then what else do you want to talk about? ^poptopic()

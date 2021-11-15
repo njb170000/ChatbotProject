@@ -1,0 +1,43 @@
+﻿USERS/topic_brandnewguy_harry.txt
+jul2116 Nov14'21-21:32:32 Nov14'21-21:56:01 1636947308-2.18.2 |
+33 34 0 DY 0 35 35 0 # start, input#, no rejoinder, #0topics, #1topics, layer2
+~sm ~exo ~rv ~nct ~hot ~introductions ~helper #pending
+~hot + 2 y#xt3 aaea v 0 0 
+~introductions + 1 RTA= ba w 0 0 
+~nct + 4 A@LR7 aaaaaaac t 0 0 
+~rv + 2 lKO+5 aaea q 0 0 
+~sm + 2 GVOE6 baea i 0 0 
+#`end topics
+$shutup=1
+$singleresponse=1
+$botprompt=SMART: 
+$userprompt=brandnewguy: >
+$cs_control_main=~control
+$cs_token=75726583
+$cs_login=brandnewguy
+$cs_bot=Harry
+$cs_randindex=1995
+$cs_trace=0
+$cs_time=0
+#`end variables
+0 #set flags
+#`end fact sets
+#`end user facts 0
+#context ~honest_response 32 GRUNT 
+ you are SMART
+ you are smart
+ help
+ help
+#`end user
+ You're a fan of Red Velvet, are you?
+ If you're not familiar with kpop or SM Entertainment, try asking me about them. If you want to talk about a specific group, but don't know the name, you can ask me what groups are in SM. You can also
+ Quite true. If you're not familiar with kpop or SM Entertainment, try asking me about them. If you want to talk about a specific group, but don't know the name, you can ask me what groups are in SM. 
+ Do you like any of the NCT subunits?
+ Hey! What are we gonna talk about this time?
+ Have you been here before?
+ Did you know H.O.T. is considered the first ever kpop group?
+ Cool.
+ Hello, again. I was wondering if you were coming back or if I'd scared you off for good.
+ If you're not familiar with kpop or SM Entertainment, try asking me about them. If you want to talk about a specific group, but don't know the name, you can ask me what groups are in SM. You can also
+ If you're not familiar with kpop or SM Entertainment, try asking me about them. If you want to talk about a specific group, but don't know the name, you can ask me what groups are in SM. You can also
+#`end chatbot

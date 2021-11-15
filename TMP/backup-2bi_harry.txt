@@ -1,0 +1,24 @@
+﻿USERS/topic_2bi_harry.txt
+jul2116 Nov14'21-22:06:50 0 0 |
+1 0 0 DY 0 35 35 0 # start, input#, no rejoinder, #0topics, #1topics, layer2
+~introductions #pending
+#`end topics
+$shutup=1
+$singleresponse=1
+$botprompt=SMART: 
+$userprompt=2bi: >
+$cs_control_main=~control
+$cs_token=75726583
+$cs_login=2bi
+$cs_bot=Harry
+$cs_randindex=1186
+$cs_trace=0
+$cs_time=0
+#`end variables
+0 #set flags
+#`end fact sets
+#`end user facts 0
+#context 
+#`end user
+ Hello! I am SMART, a chatbot designed to provide you with all the most useless information regarding SM Entertainment and its many kpop groups that you could ever ask for. Go ahead and ask me whateve
+#`end chatbot

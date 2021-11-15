@@ -1,0 +1,48 @@
+﻿USERS/topic_y2ieux_harry.txt
+jul2116 Nov13'21-15:09:44 Nov13'21-15:10:34 0 |
+1 7 0 DY 0 22 22 0 # start, input#, no rejoinder, #0topics, #1topics, layer2
+~introductions ~aespa #pending
+~aespa + 1 jyC* ia 5 0 0 
+~introductions + 1 sF1t2 ca 2 0 0 
+#`end topics
+$v1=Karina
+$cs_time=0
+$cs_trace=0
+$cs_randindex=779
+$cs_bot=Harry
+$cs_login=y2ieux
+$cs_token=75726583
+$cs_control_main=~control
+$userprompt=y2ieux: >
+$botprompt=SMART: 
+$singleresponse=1
+$shutup=1
+$fact=61439
+#`end variables
+0 #set flags
+#`end fact sets
+( On stage, she )
+( karina fact ( On stage, she ) x00000020 )
+( She was born )
+( karina fact ( She was born ) x00000020 )
+( She's officially `5'6"` )
+( karina fact ( She's officially `5'6"` ) x00000020 )
+#`end user facts 6
+#context 
+ thanks
+ no
+ thanks
+ aespa
+ no
+ yes please
+ aespa
+#`end user
+ Welcome to ChatScript. anyeong
+ Have you been here before?
+ Then welcome to your first time.
+ I don't know what to say.
+ Have you heard of SM's latest girl group, Aespa?
+ You should definitely check them out if you like music that is a bit experimental. I'm a big fan of Karina, the leader. Want to hear more about her?
+ I don't know what to say.
+ I don't know what to say.
+#`end chatbot

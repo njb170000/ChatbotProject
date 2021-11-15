@@ -1,0 +1,38 @@
+
+
+TOPIC: ~sm keep repeat [sm "sm entertainment" company label kpop]
+#!x this topic is for the company SM and broader points than the individual groups
+
+?: (why * name * SMART) My name is SMART, which stands for SM Appreciation Robot Talker, because I am here to appreciate all things related to SM Entertainment!
+
+?: (what * sm {Entertainment}) SM Entertainment was founded by Lee Soo Man in 1995 and is one of the largest kpop production companies in Korea, and has produced some of the most popular groups in the industry.
+
+?: (what * kpop) K-Pop stands for Korean Pop Music, and refers to any of the most well known artists coming out of South Korea. Also, the groups that make the music are generally divided into boy groups and girl groups.
+
+t: Are you familiar with SM entertainment already?
+	a:(~yes) Hopefully I can teach you something you didn't already know, then.
+	a:(~no) That's perfect! I can teach you everything you need to know.
+
+?: ([favorite "like most"]) Hmm, I'm not really supposed to pick favorites, but I can tell you my favorite color is red (besides SM's official pink, of course!).
+
+u: ([jyp yg hybe "big hit" woollim "happy face" "p nation" twice bts blackpink seventeen txt enhypen itzy]) Hey, I'm called the SM appreciation robot for a reason. Let's not talk about those other companies.
+
+?: (what * boy groups) SM has produced a number of boy groups over the years. They include HOT, Super Junior, Shinee, Exo, and NCT.
+
+?: (what * girl groups) SM was one of the first labels to create a girl group with SES. Following their success, SM produced Girls' Generation, F(x), Red Velvet, and Aespa
+
+?: (what * groups) SM has helped so many groups debut over the years. Here's a list of some of the ones I can talk with you about:
+			HOT, SES, Super Junior, Girls' Generation, Shinee, Exo, F(x), Red Velvet, NCT, and Aespa.
+
+t: (!$favorite_group) So, do you think you have a favorite group yet, or should we keep exploring first?
+	a: (!~negative [do have] [favorite favourite]) Tell me who it is, then!
+		b:(_*) Ooh, so it is _0?
+			c: (~yes) I see. $favorite_group = _0
+	a: ([~no "not yet" ~negative]) Don't worry. I know we'll find one you like eventually.
+
+u: (soo man) Lee Soo Man is the genius behind SM Entertainment. In 1995, he founded a music company, and now he runs one of the largest cultural exporters in Korea, with grand visions for the future.
+	Nothing in kpop would be the same without him, and that is why I am dedicated to appreciating some of his greatest accomplishments.
+
+u:(["SM Entertainment" "SM" "sm" company]) SM Entertainment started out as just a music company, but these days they do almost everything. Their talent is active in music, acting, reality shows, and much more.
+	The company is always looking to the future, as well, investing in new technologies, markets, and ideas in an effort to bring the future of entertainment to their customers.
+	The company also has a warmer, family-oriented tone than a lot of rival companies. With their signature pink color and teddy bear mascot, SM have mastered appealing to a wide audience with their image and music.

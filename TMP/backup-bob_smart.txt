@@ -1,0 +1,30 @@
+﻿USERS/topic_bob_smart.txt
+jul2116 Nov13'21-14:30:55 Nov13'21-14:31:39 0 |
+1 1 0 DY 0 22 22 0 # start, input#, no rejoinder, #0topics, #1topics, layer2
+~introductions #pending
+#`end topics
+$cs_time=0
+$cs_trace=0
+$cs_randindex=632
+$cs_bot=Smart
+$cs_login=bob
+$cs_token=75726583
+$cs_control_pre=~control
+$cs_control_main=~control
+$cs_control_post=~control
+$userprompt=bob: >
+$botprompt=SMART: 
+$singleresponse=1
+$shutup=1
+#`end variables
+0 #set flags
+#`end fact sets
+#`end user facts 0
+#context 
+ odd
+#`end user
+ There are no gambits in topic ~control for $cs_control_pre or topic is blocked for this bot.
+ There are no gambits in topic ~control for $cs_control_post or topic is blocked for this bot.
+ There are no gambits in topic ~control for $cs_control_pre or topic is blocked for this bot.
+ There are no gambits in topic ~control for $cs_control_post or topic is blocked for this bot.
+#`end chatbot

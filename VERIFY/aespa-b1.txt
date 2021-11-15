@@ -1,0 +1,4 @@
+﻿ ~aespa.0.0 #!x This topic is for anything related to the group Aespa.
+ ~aespa.2.0 #!what group from SM is the newest?
+ ~aespa.3.0 #! what group was "member" a part of, again?
+     ~aespa.9.1 #! of course

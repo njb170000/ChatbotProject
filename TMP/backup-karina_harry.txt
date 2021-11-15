@@ -1,0 +1,34 @@
+﻿USERS/topic_karina_harry.txt
+jul2116 Nov13'21-15:42:28 Nov13'21-15:42:32 0 |
+1 1 ~aespa ZMb jyC*  DY 0 22 22 0 # start, input#, rejoindertopic,rejoinderid (a:  ( ~yes ) Nice! Are you a fan? ),checksum
+~introductions ~aespa #pending
+~aespa + 1 jyC* ia 1 0 0 
+#`end topics
+$fact=61439
+$cs_time=0
+$cs_trace=0
+$cs_randindex=2395
+$cs_bot=Harry
+$cs_login=karina
+$cs_token=75726583
+$cs_control_main=~control
+$userprompt=karina: >
+$botprompt=SMART: 
+$singleresponse=1
+$shutup=1
+#`end variables
+0 #set flags
+#`end fact sets
+( On stage, she )
+( karina fact ( On stage, she ) x00000020 )
+( She was born )
+( karina fact ( She was born ) x00000020 )
+( She's officially `5'6"` )
+( karina fact ( She's officially `5'6"` ) x00000020 )
+#`end user facts 6
+#context 
+ aespa
+#`end user
+ Welcome to ChatScript. anyeong
+ Have you heard of SM's latest girl group, Aespa?
+#`end chatbot

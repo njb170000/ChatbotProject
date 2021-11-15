@@ -1,0 +1,38 @@
+﻿USERS/topic_ubew3_harry.txt
+jul2116 Nov14'21-22:03:24 Nov14'21-22:04:52 0 |
+3 5 0 DY 0 35 35 0 # start, input#, no rejoinder, #0topics, #1topics, layer2
+~songrec ~introductions #pending
+~introductions + 1 228b3 ja 4 0 0 
+#`end topics
+$favorite_group=red_velvet
+$cs_time=0
+$cs_trace=0
+$cs_randindex=3435
+$cs_bot=Harry
+$cs_login=ubew3
+$cs_token=75726583
+$cs_control_main=~control
+$userprompt=ubew3: >
+$botprompt=SMART: 
+$singleresponse=1
+$shutup=1
+#`end variables
+0 #set flags
+#`end fact sets
+#`end user facts 0
+#context 
+ red velvet is my favorite group
+ I do
+ Im still a fan!
+ yes
+ thanks
+#`end user
+ Hello! I am SMART, a chatbot designed to provide you with all the most useless information regarding SM Entertainment and its many kpop groups that you could ever ask for. Go ahead and ask me whateve
+ Hello! I am SMART, a chatbot designed to provide you with all the most useless information regarding SM Entertainment and its many kpop groups that you could ever ask for. Go ahead and ask me whateve
+ You think red velvet is your favorite group in SM?
+ Cool! I'm a big fan, too.
+ Are you still a fan of red velvet, or do you think your tastes have changed?
+ Have you been here before?
+ Welcome back!
+ You're welcome.
+#`end chatbot

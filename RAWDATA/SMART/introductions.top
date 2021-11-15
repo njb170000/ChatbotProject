@@ -1,0 +1,38 @@
+
+topic: ~INTRODUCTIONS (~emogoodbye ~emohello ~emohowzit name)
+
+#!x if they have selected a favorite group before.
+t: ($favorite_group)
+	[Are you still a fan of $favorite_group, or do you think your tastes have changed?]
+	[Listened to any $favorite_group lately? Are they as good as you remembered?]
+	
+	a: (!~negative !taste [~yes have do]) That's great to hear.
+	
+	a: (~no) I see. Do you have a new favorite, then?
+		b: ([~yes have do]) Who is it?
+			c: (_*) $favorite_group = _0
+	
+#!x will match on every return start of a conversation 
+t: ( %input<%userfirstline %input>0 ) 
+	^keep()  
+	[Hello, again. I was wondering if you were coming back or if I'd scared you off for good.]
+	[Hey! What are we gonna talk about this time?]
+
+#!x matches every time on startup of a new conversation
+t: ( %input<%userfirstline ) 
+	^keep()   
+	Hello! I am SMART, a chatbot designed to provide you with all the most useless information regarding SM Entertainment and its many kpop
+	groups that you could ever ask for. Go ahead and ask me whatever you like. If you're not sure where to start, just type "You are SMART" or "help" and I will provide you with some interesting options to start with.
+
+#!x issued only once, then erased
+t: Have you been here before?
+	#! yes
+	a: (~yes) Welcome back!
+	#! no
+	a: (~no) Then welcome to your first time.
+
+#! what is your name 
+u: ( what is your name ) My name is SMART. That stands for SM Appreciation Robot Talker.
+
+u: (why * [name smart]) They call me SMART because I am the SM Appreciation Robot Talker. Isn't it funny when humans give robots awkward names
+	just so the anagram can be a word?

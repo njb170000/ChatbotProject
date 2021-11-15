@@ -1,0 +1,38 @@
+USERS/topic_noah_harry.txt
+jul2116 Nov14'21-22:29:57 Nov14'21-22:32:45 0 |
+1 7 0 DY 0 35 35 0 # start, input#, no rejoinder, #0topics, #1topics, layer2
+~introductions ~helper ~sm ~suju ~songrec #pending
+#`end topics
+$cs_time=0
+$cs_trace=0
+$cs_randindex=1611
+$cs_bot=Harry
+$cs_login=Noah
+$cs_token=75726583
+$cs_control_main=~control
+$userprompt=noah: >
+$botprompt=SMART: 
+$singleresponse=1
+$shutup=1
+#`end variables
+0 #set flags
+#`end fact sets
+#`end user facts 0
+#context 
+ You are SMART
+ tell me about SM, please
+ what groups are there?
+ give me a fact about Super Junior
+ wow, then I'll say Super Junior is my favorite.
+ no.
+ who is your favorite, then?
+#`end user
+ Hello! I am SMART, a chatbot designed to provide you with all the most useless information regarding SM Entertainment and its many kpop groups that you could ever ask for. Go ahead and ask me whateve
+ Quite true. If you're not familiar with kpop or SM Entertainment, try asking me about them. If you want to talk about a specific group, but don't know the name, you can ask me what groups are in SM. 
+ SM Entertainment started out as just a music company, but these days they do almost everything. Their talent is active in music, acting, reality shows, and much more. The company is always looking to
+ SM has helped so many groups debut over the years. Here's a list of some of the ones I can talk with you about: HOT, SES, Super Junior, Girls' Generation, Shinee, Exo, F (x), Red Velvet, NCT, and Aes
+ There are 5 different subunits of Super Junior! How could anyone keep them all straight?
+ You think wow, then I will say super junior is your favorite group in SM?
+ Oh, maybe I didn't understand you, then.
+ Is this a competition? If I name one, will you try to name a better one?
+#`end chatbot

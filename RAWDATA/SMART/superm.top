@@ -1,0 +1,81 @@
+TOPIC: ~superm keep repeat (superm "avengers" "super m")
+#!x This topic is for anything related to the group  SuperM.
+
+u: ([tell discuss learn] * ~superm) SuperM is a SUPER interesting group, if you know what I mean. Want to learn about them?
+	
+	a: ([~yes "of course"]) SuperM isn't like other groups, its special. SuperM is a super group, meaning it is composed of some of the best idols
+			from SM's other boy groups. Specifically, it contains 4 NCT members, 2 from Exo, and 1 from Shinee. They have been called "the avengers of kpop."
+
+	a: (~no) Fine by me. What next?
+
+?: (who * member) 7 members make up SuperM: Taemin from Shinee, Baekhyun and Kai from Exo, and Mark, Taeyong, Lucas, and Ten from NCT.
+
+u: (!~negative <<baekhyun ~fact>>) [Baekhyun was born May 6, 1992.]
+			[English speaking fans often like to call him Bacon. Why? Well, it's hilarious.]
+			[Baekhyun is a member of SM super-group SuperM in addition to his place in Exo.]
+			[Baekhyun famously dated fellow SM idol Taeyeon for a year or so, but the office romance wasn't meant to be.]
+			[He has had a successful solo career while Exo has been off due to everyone's busy schedules.]
+
+
+u: (!~negative <<bai ~fact>>)  [Kai was born January 14, 1994.]
+			[Kai is one of the taller members of Exo, coming in at 5'11".]
+			[Kai is known to have a little bit of a temper, so careful not to set him off.]
+			[Recently, Kai debuted as a soloist, but he is still an active member of Exo, too.]
+			[Kai is one of Exo's two representatives in the SM Super-group SuperM.]
+			[Of course he can sing well, too, but Kai's specialty is dancing well in almost any genre.]
+			[He's likes to play video games in his free time. Maybe that explains the temper!]
+
+u: (!~negative <<taemin ~fact>>) [Taemin was born July 18, 1993.]
+			[Taemin can speak Japanese in addition to Korean.]
+			[He has a fear of bugs.]
+			[Taemin has had a very successful solo career while Shinee has been unable to make music as a group.]
+			[Taemin is currently doing his mandatory military service, which he left for in may of 2021.]
+			
+
+u: (!~negative <<taeyong ~fact>>) [He was born July 1, 1995.]
+			[He was featured as a rapper in Red Velvet's Be Natural while he was a trainee.]
+			[Taeyong's favorite color is pink (Lee Soo Man would be proud).]
+			[His feature that he likes the most is his eyes.]
+
+u: (!~negative <<mark ~fact>>) [Mark was born August 2, 1999 in Toronto, Canada.]
+			[His favorite color is blue.]
+			[Mark dislikes ketchup.]
+			[Some say Mark is overworked because he is an active member in 3 different groups! NCT 127 and dream, and even SuperM.]
+
+
+u: (!~negative <<ten ~fact>>) [Ten was born on February 27, 1996 in Thailand.]
+			[He is called Ten because there are ten letters in his real name.]
+			[Ten's birth name is Chittaphon Leechaiyapornkul.]
+			[He can speak Korean, Thai, English, Mandarin, and Japanese. Crazy!]
+			[Ten notoriously dislikes fruits.]
+
+u: (!~negative <<lucas ~fact>>)  [Lucas was born on January 25, 1999.]
+			[When asked what he dislikes, Lucas responded with mosquitoes.]
+			[He reportedly eats the most out of all of NCT's members.]
+			[He enjoys playing computer games in his free time.]
+
+u: (!~negative <<~superm ~fact>>) [SuperM debuted in 2019 with their single "Jopping."]
+	[People sometimes call them the avengers of kpop because they brought together super idols from various groups.]
+	[Currently, Baekhyun and Taemin are in the military, so only Kai is left with four members of NCT.]
+	[SuperM has made conscious efforts to expand into a worldwide market, including a special appearance on the Nickelodeon channel.]
+
+t: Do you ever want to unleash the tiger inside, hop in your super car, and start jopping to some SuperM?
+
+	#! of course
+	a: (!~negative [~yes "of course" "I have" know]) Yeah! They aren't the avengers of kpop for nothing!
+		
+		b: (!~negative favorite) Nice choice. $favorite_group = superm
+		b: (!~negative [~yes ~love ~like]) Truly, they are yet another example of Lee Soo Man's genius.
+
+	a: (~no) Yeah... Me, neither...
+
+t: ^keep () If you want, I could give you a random fact about SuperM.
+	
+	a: (!~negative [~yes love please ~positive]) [SuperM debuted in 2019 with their single "Jopping."]
+	[People sometimes call them the avengers of kpop because they brought together super idols from various groups.]
+	[Currently, Baekhyun and Taemin are in the military, so only Kai is left with four members of NCT.]
+	[SuperM has made conscious efforts to expand into a worldwide market, including a special appearance on the Nickelodeon channel.]
+
+		b: ([cool interesting fun])
+			I know, right?
+	a: ([~no ~negative]) Alright, then what else do you want to talk about? ^poptopic()

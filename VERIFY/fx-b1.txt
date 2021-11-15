@@ -1,0 +1,2 @@
+﻿ ~fx.0.0 #!x This topic is for anything related to the group fx.
+ ~fx.2.0 #! what group was "member" a part of, again?

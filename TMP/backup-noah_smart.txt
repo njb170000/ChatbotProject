@@ -1,0 +1,37 @@
+﻿USERS/topic_noah_smart.txt
+jul2116 Nov13'21-14:34:15 Nov13'21-14:39:07 0 |
+2 2 0 DY 0 22 22 0 # start, input#, no rejoinder, #0topics, #1topics, layer2
+~introductions #pending
+#`end topics
+$shutup=1
+$singleresponse=1
+$botprompt=SMART: 
+$userprompt=noah: >
+$cs_control_post=~control
+$cs_control_main=~control
+$cs_control_pre=~control
+$cs_token=75726583
+$cs_login=noah
+$cs_bot=Smart
+$cs_randindex=1611
+$cs_trace=0
+$cs_time=0
+#`end variables
+0 #set flags
+#`end fact sets
+#`end user facts 0
+#context 
+ what is your name?
+ hello
+#`end user
+ There are no gambits in topic ~control for $cs_control_pre or topic is blocked for this bot.
+ There are no gambits in topic ~control for $cs_control_post or topic is blocked for this bot.
+ There are no gambits in topic ~control for $cs_control_pre or topic is blocked for this bot.
+ There are no gambits in topic ~control for $cs_control_post or topic is blocked for this bot.
+ There are no gambits in topic ~control for $cs_control_pre or topic is blocked for this bot.
+ There are no gambits in topic ~control for $cs_control_post or topic is blocked for this bot.
+ There are no gambits in topic ~control for $cs_control_pre or topic is blocked for this bot.
+ There are no gambits in topic ~control for $cs_control_post or topic is blocked for this bot.
+ There are no gambits in topic ~control for $cs_control_pre or topic is blocked for this bot.
+ There are no gambits in topic ~control for $cs_control_post or topic is blocked for this bot.
+#`end chatbot

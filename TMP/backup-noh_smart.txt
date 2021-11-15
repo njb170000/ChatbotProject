@@ -1,0 +1,49 @@
+﻿USERS/topic_noh_smart.txt
+jul2116 Nov13'21-14:12:30 Nov13'21-14:14:27 0 |
+12 11 0 DY 0 22 22 0 # start, input#, no rejoinder, #0topics, #1topics, layer2
+~childhood ~introductions #pending
+~childhood + 2 DDso2 paaa b 0 0 
+~introductions + 1 sF1t2 da b 0 0 
+#`end topics
+$shutup=1
+$singleresponse=1
+$botprompt=SMART: 
+$userprompt=noh: >
+$cs_control_main=~control
+$cs_token=75726583
+$cs_login=noh
+$cs_bot=Smart
+$cs_randindex=1418
+$cs_trace=0
+$cs_time=0
+#`end variables
+0 #set flags
+#`end fact sets
+#`end user facts 0
+#context ~childhood 11 SCARE 
+ thanks
+ what is your name?
+ cool
+ childhood
+ nice
+ once
+ no
+ cool
+ oh no
+ that is sad
+ robots
+#`end user
+ Welcome to ChatScript. anyeong
+ You're welcome.
+ My name is SMART. That stands for SM Appreciation Robot Talker.
+ Indeed.
+ Fine.
+ Have you been here before?
+ Did you run away from home when you were little?
+ You should try it some time. Travel broadens the mind.
+ I ran away once, but my parents found me and dragged me back.
+ Why no?
+ What scared you as a kid?
+ I was scared of machines. I had vivid dreams of the Terminator robots.
+ Anyeong
+#`end chatbot

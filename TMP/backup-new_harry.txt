@@ -1,0 +1,60 @@
+﻿USERS/topic_new_harry.txt
+jul2116 Nov13'21-17:42:16 Nov13'21-17:55:27 1636847352-1.10.1 |
+25 30 0 DY 0 23 23 0 # start, input#, no rejoinder, #0topics, #1topics, layer2
+~sm ~introductions ~aespa #pending
+~aespa + 2 L1168 aaca u 0 0 
+~introductions + 1 sF1t2 ca d 0 0 
+~sm + 2 kFHQ3 faia c 0 0 
+#`end topics
+$favorite_girl_group=aespa
+$shutup=1
+$singleresponse=1
+$botprompt=SMART: 
+$userprompt=new: >
+$cs_control_main=~control
+$cs_token=75726583
+$cs_login=new
+$cs_bot=Harry
+$cs_randindex=1103
+$cs_trace=0
+$cs_time=0
+#`end variables
+0 #set flags
+#`end fact sets
+#`end user facts 0
+#context ~aespa 30 KEEP ~aespa 28 KEEP ~aespa 27 KEEP ~aespa 29 KEEP 
+ thank you
+ why is your name SMART?
+ yes
+ what is SM?
+ what groups do they have?
+ which of the groups have girls?
+ who is Aespa?
+ no
+ talk to me about Winter
+ and Giselle?
+ who are the members?
+ tell me a fact about giselle
+ giselle fact
+ lets talk about aespa
+ i have indeed
+ of course
+ that would be awesome
+ who are the members again?
+ tell me a fact about giselle
+ and a karina fact?
+ and trivia for giselle again, maybe?
+ and a karina fact.
+ give me a fact about karina
+ give me a fact about karina.
+ of course
+ favorite
+ giselle fact
+ giselle fact?
+ karina fact me
+ giselle trivia again
+#`end user
+ Giselle facts here.
+ Karina facts here.
+ Giselle facts here.
+#`end chatbot

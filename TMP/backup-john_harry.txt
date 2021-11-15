@@ -1,0 +1,37 @@
+﻿USERS/topic_john_harry.txt
+jul2116 Nov13'21-14:41:31 Nov13'21-14:41:55 0 |
+1 5 0 DY 0 22 22 0 # start, input#, no rejoinder, #0topics, #1topics, layer2
+~introductions ~aespa #pending
+~aespa + 1 JhXN6 ia 4 0 0 
+~introductions + 1 sF1t2 ca 2 0 0 
+#`end topics
+$cs_time=0
+$cs_trace=0
+$cs_randindex=1460
+$cs_bot=Harry
+$cs_login=john
+$cs_token=75726583
+$cs_control_main=~control
+$userprompt=john: >
+$botprompt=SMART: 
+$singleresponse=1
+$shutup=1
+$v1=Karina
+#`end variables
+0 #set flags
+#`end fact sets
+#`end user facts 0
+#context 
+ hey
+ yep
+ thanks\\
+ nope
+ please
+#`end user
+ Welcome to ChatScript. anyeong
+ Have you been here before?
+ Welcome back!
+ Have you heard of SM's latest girl group, Aespa?
+ You should definitely check them out if you like music that is a bit experimental. I'm a big fan of Karina, the leader. Want to hear more about her?
+ I don't know what to say.
+#`end chatbot

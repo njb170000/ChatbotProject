@@ -1,0 +1,3 @@
+﻿ ~suju.0.0 #!x This topic is for anything related to the group shinee.
+ ~suju.2.0 #! what group was "member" a part of, again?
+     ~suju.16.1 #! of course

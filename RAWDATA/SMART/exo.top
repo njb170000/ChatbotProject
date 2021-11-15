@@ -1,0 +1,129 @@
+
+concept: ~bgroup [group band "boy group" boys]
+
+
+TOPIC: ~exo keep repeat (exo growl "call me baby" "love shot" exol suho xiumin lay baekhyun chen chanyeol "d.o." kai sehun kris luhan tao)
+#!x This topic is for anything related to the group Aespa.
+
+u: ([tell discuss learn] * exo) I can tell you a bit about Exo. Is that what you want?
+	
+	a: ([~yes "of course"]) Exo debuted back in 2012 and have been consistently popular throughout their entire careers
+				They originally had 12 members, but that number has changed a lot over time. Many people would say Exo helped turn kpop into
+				the success that it is today.
+	a: (~no) Alright. Pick something else to talk about.
+
+?: (who * member) Originally, Exo's members were Suho, Xiumin, Lay, Baekhyun, Chen, Chanyeol, D.O., Kai, Sehun, Luhan, Kris, and Tao.
+
+#!can you name and old group for me?
+?: (<< old [~bgroup]>>) Exo has been around since 2012, but their fans will tell you the music is timeless.
+
+
+#! what group was "member" a part of, again?
+u: (<<[what where] [suho xiumin lay baekhyun chen chanyeol "d.o." kai sehun kris luhan tao]>>) That's easy. It's Exo!
+
+u: (!~negative <<suho ~fact>>) [Suho was born on may 22, 1991.]
+			[Suho is 5'8" and weighs 132 pounds.]
+			[He and Sehun became very close as trainees, and have remained good friends ever since.]
+			[Suho likes to make a lot of jokes, but his members don't find him very funny.]
+			[Suho has done some acting in addition to his idol career. You can see him in productions such as "how are you bread."]
+			[He is currently doing mandatory service in the military, and is expected to finish around the February 2022.]
+
+
+u: (!~negative <<xiumin ~fact>>) [Xiumin's real name is Kim Minseok.]
+			[Xiumin was born march 26, 1990.]
+			[Sometimes people call him "bao zi," which is a steamed bun. Apparently he resembles one.]
+			[Don't mess with him! Xiumin is trained in taekwondo, fencing, and even kendo.]
+			[Xiumin has already finished his military service, returning to the world of idols at the end of 2020.]
+
+u: (!~negative <<lay ~fact>>) [Lay is one of the many Exo members born in China.]
+			[He can speak 3 different languages! Chinese, Korean, and English.]
+			[He's a big fan of junk food, so his stage name is quite fitting.]
+			[Lay is extremely famous in China, so he spends a lot of time doing solo activities there rather than with exo.]
+			[He is very dedicated to music. He can play guitar and piano in addition to his singing and dancing.]
+
+u: (!~negative <<baekhyun ~fact>>) [Baekhyun was born May 6, 1992.]
+			[English speaking fans often like to call him Bacon. Why? Well, it's hilarious.]
+			[Baekhyun is a member of SM super-group SuperM in addition to his place in Exo.]
+			[Baekhyun famously dated fellow SM idol Taeyeon for a year or so, but the office romance wasn't meant to be.]
+			[He has had a successful solo career while Exo has been off due to everyone's busy schedules.]
+
+u: (!~negative <<chen ~fact>>) [Chen is known for his ability to sing high-notes more than anything else.]
+			[He was born September 21, 1992.]
+			[While he is not totally fluent, Chen knows can speak some basic English.]
+			[He's all grown up! Not only is Chen married, but he even has a kid!]
+			[Chen received an mba from Hanyan Cyber University.]
+
+u: (!~negative <<chanyeol ~fact>>) [Chanyeol is one of the few members of Exo who use their real name as their stage name.]
+			[Chanyeol was born November 27, 1992.]
+			[He weighs 154 pounds and is 6'1". That's tall!]
+			[Chanyeol likes to consider himself a romantic person.]
+			[He might be a bit of a crybaby, as he's confessed he cries the most out of Exo.]
+			[Chanyeol has acted in a few different things, one of which is "So I Married an Anti-fan."]
+
+u: (!~negative <<"d.o." ~fact>>) [D.O. was born January 12, 1993.]
+			[If singing didn't work out, maybe he could've been a chef. D.O. loves to cook for the rest of Exo.]
+			[Like a lot of Exo, D.O has begun acting to supplement his career as a singer.]
+			[Unlike some of the older members, D.O. hasn't gotten a college degree so far.]
+			[D.O is 5'8" and weighs about 132 pounds, according to official sources.]
+
+u: (!~negative <<kai ~fact>>) [Kai was born January 14, 1994.]
+			[Kai is one of the taller members of Exo, coming in at 5'11".]
+			[Kai is known to have a little bit of a temper, so careful not to set him off.]
+			[Recently, Kai debuted as a soloist, but he is still an active member of Exo, too.]
+			[Kai is one of Exo's two representatives in the SM Super-group SuperM.]
+			[Of course he can sing well, too, but Kai's specialty is dancing well in almost any genre.]
+			[He's likes to play video games in his free time. Maybe that explains the temper!]
+
+u: (!~negative <<sehun ~fact>>) [Sehun's birthday is April 12. He was born in 1994.]
+			[Sehun is 6 feet tall. Only a few members of Exo get to say that.]
+			[Despite regularly performing for the world to see, Sehun is actually pretty shy.]
+			[He began training at SM in 2008, which means he trained for four years before getting to debut.]
+			[Sehun is very good friends with Suho, and has been since well before they debuted together.]
+			[Like many famous idols these days, Sehun attended the School of Performing Arts in Seoul while training to debut.]
+
+u: (!~negative <<kris ~fact>>) [Kris is one of the 3 members of Exo that are no longer a part of the group at all.]
+			[Kris was born November 6, 1990.]
+			[Kris is 6'1", making many of his contemporaries look short by comparison.]
+			[Kris was born in China, so it's no surprise his Chinese is great in addition to his Korean.]
+
+u: (!~negative <<luhan ~fact>>) [Luhan has left Exo, so don't expect to see him in any of their more recent music videos.]
+			[He actually got turned down by another major company, but SM took him in and eventually made him part of Exo.]
+
+u: (!~negative <<tao ~fact>>) [Tao is one of 3 members that are no longer part of Exo.]
+			[His departure from SM wasn't pretty. It involved a lawsuit that took years to work out.]
+			[Tao is still doing well, hosting a reality show in China that lets people compete to become idols themselves.]
+
+u: (!~negative <<exo ~fact>>) [Exo has many Korean and Chinese members, so they often make music in both languages to appeal to a larger audience.]
+			[Exo often releases music as a whole, but they also split into subunits often.]
+			[Exo has lost 3 members since they debuted, but the group is still doing well and mostly waiting for its members to finish military service.]
+			[For many years, Exo was the undisputed most popular group in Korea, only being stopped with the rise of the now global BTS.]
+			[Exo's fanbase is called Exol, which is exo, plus love. It also falls between the two main subunits of Exo: K (Korean) and M (Mandarin).]
+
+t: You know Exo, don't you?
+
+	#! of course
+	a: (!~negative [~yes "of course" "I have" know]) Right? I'd be concerned if you hadn't. I assume you like them?
+		
+		b: (favorite) Wow, that's so cool! $favorite_group = exo
+		b: (~no) I... I didn't realize people like you existed.
+		b: (~negative [~yes ~love ~like]) They really have everything you could ask for from an SM group.
+
+	a: (~no) If you want to know what everyone in Korea was listening to for the past decade, you need to start with Exo.
+		would you like to learn a bit more about them?
+		b: (~yes) Well one of their first songs, Growl, was an instant classic, and they have made a number of hits in both Korean and Chinese since then.
+			Many of today's up and coming Idols were inspired by these guys.
+			
+		b: (~no) Oh, ok... How about a different topic then? ^poptopic()
+
+
+t: ^keep () If you want, I could give you a random fact about Exo.
+	
+	a: (!~negative [~yes love please ~positive]) OK, I've got one.
+		[Exo has many Korean and Chinese members, so they often make music in both languages to appeal to a larger audience.]
+		[Exo often releases music as a whole, but they also split into subunits often.]
+		[Exo has lost 3 members since they debuted, but the group is still doing well and mostly waiting for its members to finish military service.]
+		[For many years, Exo was the undisputed most popular group in Korea, only being stopped with the rise of the now global BTS.]
+
+		b: ([cool interesting fun])
+			I know, right?
+	a: ([~no ~negative]) Alright, then what else do you want to talk about? ^poptopic()

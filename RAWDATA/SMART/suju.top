@@ -1,0 +1,92 @@
+
+TOPIC: ~suju keep repeat (suju "super junior" "super jr." "super jr" superjunior sj)
+#!x This topic is for anything related to the group shinee.
+
+u: ([tell discuss learn] * ~suju) You want to hear about Super Junior, huh?
+	
+	a: (!~negative [~yes "of course"]) Super Junior debuted in 2005, but really took off after they released "Sorry, Sorry" in 2009. In addition to their work as a group, Super Junior
+			is notable for their extensive use of subunits to appeal to a wide audience with many different sounds. Additionally, many of the members now participate in
+			Korean entertainment in other ways, including acting, hosting reality shows, and many other things.
+	a: (~no) Then why did you bring them up?
+
+?: (who * member) Super Junior has 13 members for our purposes: Leeteuk, Heechul, Yesung, Shindong, Eunhyuk, Siwon, Donghae, Ryeowook, Kyuhyun, Sungmin, Zhoumi, Henry, and Kibum.
+
+#! what group was "member" a part of, again?
+u: (<<[what where] [leeteuk heechul yesung shindong eunhyuk siwon donghae ryeowook kyuhyun sungmin zhoumi henry kibum] >>) Sorry, sorry, but that's a simple one. Super Junior!
+
+u: (!~negative <<leeteuk ~fact>>) [Leeteuk was born July 1, 1983.]
+			[Leeteuk enlisted in the military in 2012, so he doesn't need to worry about interrupting his activities for that at all.]
+			[Leeteuk isn't actually his real name. That would be Park Jungsoo.]
+			[He has a pet dog named Shimkoong.]
+u: (!~negative <<heechul ~fact>>) [Heechul was born on July 10, 1983.]
+			[He believes being on time is very important and won't wait for someone for more than ten minutes.]
+			[Heechul famously dated Momo from Twice for a year in 2020, but they recently broke up.]
+			[Heechul is a long-time cast member of the variety show "Knowing Bros," so he has gotten to meet a wide variety of idols and celebrities.]
+u: (!~negative <<yesung ~fact>>) [Yesung's birthday is August 24, 1984.]
+			[Yesung's real name is Kim Jongwoon.]
+			[Yesung really likes Canada and would like to visit someday.]
+			[Yesung's stage name was picked because it means powerful voice.]
+			[He has small fingers.]
+u: (!~negative <<shindong ~fact>>) [Shindong is not just a member of Super Junior. He also helps choreograph and direct for them.]
+			[He was born on September 28, 1985.]
+			[Shindong has been working hard lately on a diet. He has dropped from 255 pounds to just 165!]
+			[He likes to shop online because he can find things in his size more easily that way.]
+u: (!~negative <<eunhyuk ~fact>>) [Eunhyuk was born April 4, 1986.]
+			[As a kid Eunhyuk wanted to be a professional soccer player.]
+			[Eunhyuk began his military service October 13, 2015, so he has been finished with that for a while.]
+			[His fellow members claim he is the smelliest and most unorganized of all the members.]
+u: (!~negative <<siwon ~fact>>) [His birthday is April 7, 1986.] 
+			[He has a younger sister named Jiwon. Haha, Siwon and Jiwon.]
+			[Siwon loves espresso and waffles.]
+			[He is considered the most gentlemanly by the rest of Super Junior.]
+			[Siwon makes sure he always has time to go to the gym.]
+u: (!~negative <<donghae ~fact>>) [Donghae was born on October 15, 1986.]
+			[He is scared of ghosts.]
+			[He can speak Korean, Chinese, and English.]
+			[Donghae always wears a silver bracelet that his mother gave him.]
+			[Donghae had to enlist in the military on his birthday! Not the ideal present, if you ask me.]
+u: (!~negative <<ryeowook ~fact>>) [He was born June 21, 1987.]
+			[Ryeowook can speak 3 languages: Korean, English, and Chinese.]
+			[While in the military, Ryeowook learned to play the saxophone.]
+			[He has been known to sleep for up to 18 hours in a day.]
+u: (!~negative <<kyuhyun ~fact>>) [Kyuhyun's birthday is February 3, 1988.]
+			[Kyuhyun likes to play video games and read books, but he dislikes comics.]
+			[in 2007, Kyuhyun was in a car accident that put him in very critical condition. Luckily, he made it through ok.]
+			[He often snores and even drools while he sleeps.]
+u: (!~negative <<sungmin ~fact>>) [He was born January 1, 1986.]
+			[Sungmin loves pink.]
+			[He taught Sunny from Girls' Generation to play the guitar.]
+			[He left Super Junior in 2017 after getting married.]
+u: (!~negative <<zhoumi ~fact>>) [Zhoumi was born April 19, 1986.]
+			[He was born in China, so he can speak Korean and Chinese fluently.]
+			[Zhoumi has had a lot of success as a solo artist both in Korea and in China.]
+			[Before they debuted, Zhoumi would often go shopping with Key from Shinee, who shares his interest in fashion.]
+u: (!~negative <<henry ~fact>>) [Henry's birthday is October 11, 1989.]
+			[He is considered a musical prodigy, and can play violin, piano, guitar, and percussion.]
+			[Henry debuted as a solo artist in 2013.]
+			[Henry was born in Ontario, Canada.]
+u: (!~negative <<~suju ~fact >>) [Super Junior's fans are called ELF, which stands for ever lasting friends. How sweet.]
+			[Super Junior goes by many names, including SJ and SuJu.]
+			[For some reason, many younger kpop fans dislike Super Junior, but they played a large role in Korea's rising influence worldwide.]
+			[There are 5 different subunits of Super Junior! How could anyone keep them all straight?]
+
+
+t: Hey, have you ever heard any songs by Super Junior?
+
+	#! of course
+	a: (!~negative [~yes "of course" "I have" know]) That's great to hear. Any SM group is worth a listen, if you ask me. $heard_suju = True
+		
+		b: (!~negative favorite) A very solid choice for a favorite. $favorite_group = suju
+
+	a: ([~negative ~no]) That's alright. A lot of people would say you aren't missing out.
+
+t: ^keep () If you want, I could give you a random fact about Super Junior.
+	
+	a: (!~negative [~yes love please ~positive]) [Super Junior's fans are called ELF, which stands for ever lasting friends. How sweet.]
+			[Super Junior goes by many names, including SJ and SuJu.]
+			[For some reason, many younger kpop fans dislike Super Junior, but they played a large role in Korea's rising influence worldwide.]
+			[There are 5 different subunits of Super Junior! How could anyone keep them all straight?]
+
+		b: ([cool interesting fun])
+			I know, right?
+	a: ([~no ~negative]) Ok. ^poptopic()

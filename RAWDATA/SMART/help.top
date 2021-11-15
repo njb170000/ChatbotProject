@@ -1,0 +1,14 @@
+TOPIC: ~helper keep repeat (help "You are SMART")
+#! maybe I will add additional input help later on, but for now this just holds the one message giving suggestions to the user.
+
+s: ("You are SMART") Quite true. If you're not familiar with kpop or SM Entertainment, try asking me about them.
+If you want to talk about a specific group, but don't know the name, you can ask me what groups are in SM. You can also ask me for facts about any group or member
+in SM; facts are my specialty. I can also give you a few recommendations if you would rather start there. I am also able to remember your favorite group! Just tell me "(group) is my favorite group" and I will be sure to ask about it next time we talk.
+Finally, if you can't remember who's from where, just ask me!
+I can tell you all the members of a group, or which group a specific person is from. If you ever need to see this message again, just type "You are SMART." I will also respond to "help," but that one is a lot less fun, don't you think?
+
+s: ("help") If you're not familiar with kpop or SM Entertainment, try asking me about them.
+If you want to talk about a specific group, but don't know the name, you can ask me what groups are in SM. You can also ask me for facts about any group or member
+in SM; facts are my specialty. I can also give you a few recommendations if you would rather start there. I am also able to remember your favorite group! Just tell me "(group) is my favorite group" and I will be sure to ask about it next time we talk.
+Finally, if you can't remember who's from where, just ask me!
+I can tell you all the members of a group, or which group a specific person is from. If you ever need to see this message again, just type "You are SMART." I will also respond to "help," but that one is a lot less fun, don't you think?

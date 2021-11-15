@@ -1,0 +1,73 @@
+TOPIC: ~fx keep repeat (fx "f(x)" "f of x" victoria amber luna krystal sulli "red light" ~ggroup)
+
+#!x This topic is for anything related to the group fx.
+
+u: ([tell discuss learn] * ~fx) Want me to tell you a bit about f(x)?
+	
+	a: ([~yes "of course" ~positive]) F(x) is an interesting one. The name makes them sound pretty nerdy, but they were actually pretty cool.
+		They debuted in 2009 and kept making music untile the members went their separate ways in starting in 2016. They've got some weird stuff,
+		but the people that like it swear there's nothing better than F(x)'s music.
+
+	a: ([~no ~negative]) No problem, what else should we discuss, then?
+
+?: (who * member) F(x) consists of Victoria, Amber, Luna, Krystal, and Sulli, who left just before the group's final releases.
+
+#! what group was "member" a part of, again?
+u: (<<[what where] [victoria amber luna krystal sulli]>>) She's one of the variables that SM added up to equal f(x).
+
+u: (!~negative <<victoria ~fact>>) [Victoria was born february 2, 1987.]
+			[She is 5'6" and weighed just 99 pounds while she was in f(x), apparently.]
+			[Victoria is a good cook, which works out nicely because she likes to eat to relieve stress.]
+			[Victoria was actually born in China, and her birth name is Song Qian.]
+			[Victoria appeared in a number of SM music videos before debuting in f(x).]
+
+u: (!~negative <<amber ~fact>>) [Amber was born on September 18, 1992.]
+			[Amber was born in Los Angeles and moved to South Korea after she passed an audition to join SM as a trainee.]
+			[Amber also had a few solo releases in addition to her part in f(x).]
+			[Amber left SM in 2019 to better pursue what she wanted to on her own.]
+			[Her official weight was just 99 pounds, but she later revealed she weighed 123 pounds, which sounds a lot more reasonable!]
+			[She is usually easy to spot because of her trademark short hair.]
+
+u: (!~negative <<luna ~fact>>) [Luna was born August 12, 1993.]
+			[Her real name is actually Park Sun Young.]
+			[Luna is very good friends with IU, one of the most popular soloists in South Korea.]
+			[Luna's favorite season is Autumn.]
+			[Luna has done some acting like many other artists, but she has been in musicals rather than shows and movies.]
+			[Pizza is on of her favorite foods.]
+
+u: (!~negative <<krystal ~fact>>) [Krystal's birthday is October 24, 1994.]
+			[Krystal's real name is actually Chrystal! Shame, she had two chances and spelled it wrong both times.]
+			[She is originally from San Francisco, and moved to Korea to become a kpop idol.]
+			[Krystal has acted in a number of things ever since she debuted in f(x).]
+			[Krystal loves apples, but is tragically allergic, so she can't eat them.]
+
+u: (!~negative <<sulli ~fact>>) [Sulli's birthday is March 29 1994,]
+			[Her real name is Choi Jinri.]
+			[She is a bit taller than the rest of f(x), reaching 5'7".
+			[She has made friends with many idols from different groups over the years, from groups older and younger than her own.]
+			[Sulli left f(x) in 2015, just about a year before the rest of the group left. She did so in order to focus on her acting career.]
+
+u: (!~negative <<~fx ~fact>>) [F(x) debuted in 2009 and kept making music until they split apart 7 years later.]
+			[Their fans are called "MeU," and they are some of the most dedicated out there.]
+			[Although the group is no longer active, most of the members are still doing well in their solo pursuits.]
+			[Many thought their music was too experimental and weird at the time, but f(x) did a lot to set the stage for many of today's girl groups.]
+			
+
+t: Can you help with my math homework? I was wondering if you knew f(x).
+
+	a: (favorite) You must have a very refined taste! $favorite_group = fx
+	a: (~negative [~yes ~love ~like]) Haha, I'm so funny. Anyway, f(x) really did leave their mark on the music industry.
+	a: (~no) Their music isn't for everyone, but if you do decide to check out some of their songs, let me know what you thought!
+
+
+t: ^keep () If you want, I could give you a random fact about f(x).
+	
+	a: (!~negative [~yes love please ~positive]) plugging into my equation...
+		[F(x) debuted in 2009 and kept making music until they split apart 7 years later.]
+		[Their fans are called "MeU," and they are some of the most dedicated out there.]
+		[Although the group is no longer active, most of the members are still doing well in their solo pursuits.]
+		[Many thought their music was too experimental and weird at the time, but f(x) did a lot to set the stage for many of today's girl groups.]
+	
+		b: ([cool interesting fun])
+			I know, right?
+	a: ([~no ~negative]) What else should we discuss, then? ^poptopic()

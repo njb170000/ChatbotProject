@@ -1,0 +1,3 @@
+﻿ ~shinee.0.0 #!x This topic is for anything related to the group shinee.
+ ~shinee.2.0 #! what group was "member" a part of, again?
+     ~shinee.9.1 #! of course

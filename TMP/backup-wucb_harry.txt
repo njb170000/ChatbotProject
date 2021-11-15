@@ -1,0 +1,33 @@
+﻿USERS/topic_wucb_harry.txt
+jul2116 Nov14'21-22:00:06 Nov14'21-22:00:42 0 |
+1 4 ~rv ?Mb lKO+5  DY 0 35 35 0 # start, input#, rejoindertopic,rejoinderid (a:  ( !~negative [ ~yes love please ~positive ] ) OK, I've got one. [ Red Velvet's name is a r...   ),checksum
+~introductions ~rv #pending
+~rv + 2 lKO+5 aaea 4 0 0 
+#`end topics
+$shutup=1
+$singleresponse=1
+$botprompt=SMART: 
+$userprompt=wucb: >
+$cs_control_main=~control
+$cs_token=75726583
+$cs_login=wucb
+$cs_bot=Harry
+$cs_randindex=3958
+$cs_trace=0
+$cs_time=0
+#`end variables
+0 #set flags
+#`end fact sets
+#`end user facts 0
+#context 
+ my favorite group is red velvet
+ yes!
+ yes please
+ red velvet is my favorite group
+#`end user
+ Hello! I am SMART, a chatbot designed to provide you with all the most useless information regarding SM Entertainment and its many kpop groups that you could ever ask for. Go ahead and ask me whateve
+ You're a fan of Red Velvet, are you?
+ If you want, I could give you a random fact about Red Velvet.
+ OK, I've got one. Red Velvet is one of the shortest groups in kpop with only Joy surpassing 5'5\".
+ If you want, I could give you a random fact about Red Velvet.
+#`end chatbot

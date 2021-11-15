@@ -1,0 +1,62 @@
+﻿USERS/topic_yonathan_harry.txt
+jul2116 Nov13'21-15:05:25 Nov13'21-15:09:32 0 |
+12 13 0 DY 0 22 22 0 # start, input#, no rejoinder, #0topics, #1topics, layer2
+~aespa ~introductions #pending
+~introductions + 1 sF1t2 ca 5 0 0 
+#`end topics
+$v1=Ningning
+$shutup=1
+$singleresponse=1
+$botprompt=SMART: 
+$userprompt=yonathan: >
+$cs_control_main=~control
+$cs_token=75726583
+$cs_login=yonathan
+$cs_bot=Harry
+$cs_randindex=359
+$cs_trace=0
+$cs_time=0
+$fact=61438
+#`end variables
+0 #set flags
+#`end fact sets
+( On stage, she )
+( karina fact ( On stage, she ) x00000020 )
+( She was born )
+( karina fact ( She was born ) x00000020 )
+( She's officially `5'6"` )
+( karina fact ( She's officially `5'6"` ) x00000020 )
+#`end user facts 6
+#context 
+ thanks
+ yep
+ woo
+ no
+ yes please
+ hey
+ whaddup
+ aespa
+ s
+ a
+ f
+ very cool
+ yep
+#`end user
+ Welcome to ChatScript. anyeong
+ Have you been here before?
+ Welcome back!
+ Have you heard of SM's latest girl group, Aespa?
+ You should definitely check them out if you like music that is a bit experimental. I'm a big fan of Ningning, one of their vocalists. Want to hear more about her?
+ Awesome! Here's one cool thing I know about Ningning.
+ Anyeong
+ I don't know what to say.
+ Fine.
+ Right.
+ I don't know what to say.
+ I don't know what to say.
+ I don't know what to say.
+ I don't know what to say.
+ Cool.
+ Indeed.
+ Yes.
+#`end chatbot
